@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bare">
+  <div id="app" style="background-color: #d1dec3">
     <HelloWorld/>
   </div>
 </template>

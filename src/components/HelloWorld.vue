@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <v-app style="
+  background: #d1dec3;">
     <br />
     <br />
 
@@ -27,7 +29,7 @@
         </div>
 
         <div class="midboxresume">
-         <a href="Achinth_Bharadwaj_Resume_B.pdf">
+         <a href="Achinth-Bharadwaj-Resume.pdf">
             <img
               src="../assets/resume-icon.png"
               style="height: 60%; position: relative;
@@ -38,12 +40,12 @@
         </div>
 
         <div class="midboxmedium">
-          <a href="https://abharadwaj.medium.com">
+          <a href="/blog">
             <img
               src="../assets/medium-icon.png"
-              style="height: 60%; position: relative;
-                            top: 20%;
-                            left: 0%"
+              style="height: 70%; position: relative;
+                            top: 15%;
+                            left: 5%"
             />
           </a>
         </div>
@@ -80,8 +82,8 @@
 
         <div class="whatido">
            
-            <div style="position: relative; width: 50%; padding: 23px; display: inline-block;"> 
-              • i'm just a normal guy. 
+            <div style="position: relative; width: 50%; padding: 14px; display: inline-block;"> 
+              who am i?
                <br/>
               • i've lived in vancouver for too long now.
                <br/>
@@ -90,21 +92,20 @@
               • i've only lived in rainforests.
             </div>
 
-            <div style="position: relative; width: 50%; padding: 23px; display: inline-block;"> 
-              What am I engaged in?  
+            <div style="position: relative; width: 50%; padding: 14px; display: inline-block;"> 
+              what do i do?  
                <br/>
-              • web dev
+              • data
               <br/>
-              • frontend dev
-              
+              • development
                <br/>
-              • ML & data science
+              • design
                <br/>
-              • design & interaction
+              • democracy
               <br/>
-              • cooking
+              • epicureanism
               <br/>
-              • politics
+              • memes
             </div>
 
 
@@ -112,23 +113,20 @@
 
         <div class="whatilove">
           <br />
-          I've done my best, including:
-          <v-timeline dark>
+          here's the trailer.
+          <v-timeline style=" transform: scale(0.9); padding:-315px">
             <v-timeline-item
               v-for="(item, i) in done"
               :key="i"
+              :color= "item.color"
               small
-              style="transform: scale(0.75); padding:-24px"
+              style="padding:-105px"
             >
               <template v-slot:opposite>
-                <span style="font-size:25px">{{ item.year }}</span>
+                <span style="font-size:20px">{{ item.year }}</span>
               </template>
-
-              <v-card>
-                <v-card-text style="color: #f0ffe0; transform: scale(1.4)">
-                  {{ item.did }}
-                </v-card-text>
-              </v-card>
+                  <span style="font-size:20px">{{ item.did }}</span>
+                
             </v-timeline-item>
           </v-timeline>
         </div>
@@ -163,6 +161,7 @@
         made with 💖, achinth © 2021.
       </footer>
     </div>
+    </v-app>
   </div>
 </template>
 
@@ -199,23 +198,29 @@ export default {
           did: "UBC Launch Pad 🚀",
         },
         {
-          color: "red lighten-2",
+          color: "orange lighten-2",
           icon: "mdi-star",
           year: 2020,
           did: "intern @boeing 🛩️",
         },
         {
-          color: "red lighten-2",
+          color: "yellow lighten-2",
           icon: "mdi-star",
           year: 2021,
           did: "UBC Pandas 🐼",
         },
         {
-          color: "red lighten-2",
+          color: "green lighten-2",
           icon: "mdi-star",
-          year: "2021 and beyond",
-          did: "who knows? 🔎",
+          year: 2021,
+          did: "incoming @covalent ⚗️",
         },
+        {
+          color: "blue lighten-2",
+          icon: "mdi-star",
+          year: "2021++",
+          did: "who knows?",
+        }
       ],
     };
   },
@@ -231,6 +236,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.hello {
+  background-color: #d1dec3;
+}
 .bigbox {
   position: fixed;
   top: 50%;
