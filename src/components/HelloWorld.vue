@@ -204,16 +204,16 @@ export default {
           did: "intern @boeing 🛩️",
         },
         {
-          color: "yellow lighten-2",
-          icon: "mdi-star",
-          year: 2021,
-          did: "UBC Pandas 🐼",
-        },
-        {
           color: "green lighten-2",
           icon: "mdi-star",
           year: 2021,
-          did: "incoming @covalent ⚗️",
+          did: "intern @covalent ⚗️",
+        },
+        {
+          color: "yellow lighten-2",
+          icon: "mdi-star",
+          year: 2021,
+          did: "intern @tesla 🔌",
         },
         {
           color: "blue lighten-2",
