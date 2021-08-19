@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f0ead6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #1b4332;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  background: #1b4332;
+  color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: -50;
+  left: 0;
+  font-weight: bold;
+}
+
+.button {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 100%;
+  margin: 15px;
+  border: 2px solid #1b4332;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  display: block;
+  background: transparent;
+  color: #1b4332
+}
+
+.button:hover {
+  background-color: #a3b3ad;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.sub {
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+
+.linkSection {
+margin-bottom: 10px;
+}
+
+.mainLink {
+color: #ffffff;
+}
+
+.mainLink:hover {
+color: #8096ff;
+cursor: pointer;
+}
+
+.fill-window {
+  position: absolute;
+    top: 40px; /* Header Height */
+    bottom: 20px; /* Footer Height */
+    width: 100%;
+
+}
