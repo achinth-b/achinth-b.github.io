@@ -19,6 +19,7 @@ function App() {
           loop: true,
         }}
       />
+      <br />
     </div>
   );
   const subtitle = (
@@ -64,12 +65,16 @@ function App() {
   );
 
   return (
-    <React.Fragment>
+    
       <div className="App">
         <div className="App-header">
           {title}
+          
+          
+          
 
           <Dimension />
+          <br />
 
           {subtitle}
           {workVibe}
@@ -79,11 +84,11 @@ function App() {
         </div>
 
         <div className="footer">
-          {" "}
+         
           made with 💖, achinth © {year.getFullYear()}.{" "}
         </div>
       </div>
-    </React.Fragment>
+    
   );
 }
 

@@ -16,6 +16,7 @@
 .App-header {
   background-color: #f0ead6;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,10 +41,11 @@
 .footer {
   background: #1b4332;
   color: #ffffff;
-  padding: 15px;
   width: 100%;
-  height: 25px;
+  height: 50px;
   position: absolute;
+  padding-top: 17px;
+  align-items: center;
   bottom: -50;
   left: 0;
   font-weight: bold;
