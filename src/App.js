@@ -16,23 +16,24 @@ function App() {
         options={{
           strings: ["achinth bharadwaj", "ಅಚಿಂತ್ ಭಾರದ್ವಾಜ್"],
           autoStart: true,
+          cursor: "",
           loop: true,
         }}
       />
-      <br />
     </div>
   );
   const subtitle = (
     <div className="sub">
-      fourth year computer science, statistics and data science student @ ubc.
+      fourth year computer science and statistics student @ ubc.
     </div>
   );
 
   const workVibe = (
     <div className="sub">
-      about to engineer @ tesla. <br />
-      former @ boeing and @ covalent <br />
-      always hunting for internships and fellowships in machine learning,
+      intern <a href='https://tesla.com'>@tesla</a> <br />
+      about to intern <a href='https://about.facebook.com/meta'>@meta</a> <br />
+      former <a href='https://www.boeing.ca/boeing-in-canada/boeing-vancouver.page'>@boeing</a> and  <a href='https://covalenthq.com'>@covalent</a> <br />
+      always hunting for ventures and fellowships in machine learning,
       software dev and data science.
     </div>
   );
@@ -69,12 +70,9 @@ function App() {
       <div className="App">
         <div className="App-header">
           {title}
-          
-          
-          
+
 
           <Dimension />
-          <br />
 
           {subtitle}
           {workVibe}
