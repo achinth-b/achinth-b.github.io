@@ -14,7 +14,7 @@ function App() {
     <div className="title">
       <Typewriter
         options={{
-          strings: ["achinth bharadwaj", "ಅಚಿಂತ್ ಭಾರದ್ವಾಜ್"],
+          strings: ["achinth bharadwaj", "ಅಚಿಂತ್ ಭಾರದ್ವಾಜ್", "@bigdaddytwochinz"],
           autoStart: true,
           cursor: "",
           loop: true,
@@ -30,9 +30,8 @@ function App() {
 
   const workVibe = (
     <div className="sub">
-      intern <a href='https://tesla.com'>@tesla</a> <br />
       about to intern <a href='https://about.facebook.com/meta'>@meta</a> <br />
-      former <a href='https://www.boeing.ca/boeing-in-canada/boeing-vancouver.page'>@boeing</a> and  <a href='https://covalenthq.com'>@covalent</a> <br />
+      former <a href='https://tesla.com'>@tesla</a>, <a href='https://www.boeing.ca/boeing-in-canada/boeing-vancouver.page'>@boeing</a> and <a href='https://covalenthq.com'>@covalent</a> <br />
       always hunting for ventures and fellowships in machine learning,
       software dev and data science.
     </div>
