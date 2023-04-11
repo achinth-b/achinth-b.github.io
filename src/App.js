@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaGithub} from "react-icons/fa";
+import {SiSubstack} from "react-icons/si";
 import Dimension from "./components/Dimension";
 import Typewriter from "typewriter-effect";
 
@@ -9,12 +10,14 @@ function App() {
   const email = <FaEnvelope className="icon" />;
   const linkedin = <FaLinkedin className="icon" />;
   const github = <FaGithub className="icon" />;
+  const substack = <SiSubstack className="icon" />;
+  
 
   const title = (
     <div className="title">
       <Typewriter
         options={{
-          strings: ["achinth bharadwaj", "ಅಚಿಂತ್ ಭಾರದ್ವಾಜ್", "@bigdaddytwochinz"],
+          strings: ["achinth bharadwaj", "@bigdaddytwochinz"],
           autoStart: true,
           cursor: "",
           loop: true,
@@ -22,18 +25,27 @@ function App() {
       />
     </div>
   );
+
+  const location = (
+    <div className="sub">
+      📍 nyc / vancouver, bc
+    </div>
+  )
+
   const subtitle = (
     <div className="sub">
-      fourth year computer science and statistics student @ ubc.
+      fifth-year cs + stats major <a href = "https://cs.ubc.ca">@ubc</a> /
+      about to ft  <a href='https://www.palantir.com'>@palantir</a> / research <a href = "https://www.cs.ubc.ca/students/undergrad/research-and-conferences/undergraduate-student-research-awards">@ubc</a>. <br />
     </div>
   );
 
   const workVibe = (
     <div className="sub">
-      about to intern <a href='https://about.facebook.com/meta'>@meta</a> <br />
-      former <a href='https://tesla.com'>@tesla</a>, <a href='https://www.boeing.ca/boeing-in-canada/boeing-vancouver.page'>@boeing</a> and <a href='https://covalenthq.com'>@covalent</a> <br />
+      former <a href='https://about.facebook.com/meta'>@meta</a> summer '22 / <a href='https://tesla.com'>@tesla</a> fall '21 / <a href='https://covalenthq.com'>@covalent</a> summer '21 / <a href='https://www.boeing.ca/boeing-in-canada/boeing-vancouver.page'>@boeing</a> winter & summer '20
+    
+       <br />
       always hunting for ventures and fellowships in machine learning,
-      software dev and data science.
+      software engineering and data science.
     </div>
   );
 
@@ -61,6 +73,15 @@ function App() {
       >
         {email}
       </button>
+
+      <button
+        className="button"
+        onClick={() =>
+          window.open("https://achinth.substack.com")
+        }
+      >
+        {substack}
+      </button>
     </div>
   );
 
@@ -70,9 +91,9 @@ function App() {
         <div className="App-header">
           {title}
 
-
+          
           <Dimension />
-
+          {location}
           {subtitle}
           {workVibe}
 
