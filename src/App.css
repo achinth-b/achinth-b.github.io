@@ -17,12 +17,12 @@
   background-color: #070f25;
     min-height: 100vh;
     width: 100%;
-    display: flex;
+    display: float;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-size: calc(10px + 2vmin);
-    color: #C0C0C0;
+    color: #c9d1d9;
 }
 
 .App-link {
@@ -39,7 +39,7 @@
 }
 
 .footer {
-  background: #C0C0C0;
+  background: #c9d1d9;
   color: #ffffff;
   width: 100%;
   height: 50px;
@@ -58,7 +58,7 @@
   position: relative;
   border-radius: 100%;
   margin: 15px;
-  border: 2px solid #C0C0C0;
+  border: 2px solid #c9d1d9;
 }
 
 .icon {
@@ -71,7 +71,7 @@
   height: 25px;
   display: block;
   background: transparent;
-  color: #C0C0C0
+  color: #c9d1d9
 }
 
 .button:hover {
@@ -110,7 +110,7 @@ cursor: pointer;
 
 .Typewriter::after {
   content: "_";
-  color: #C0C0C0;
+  color: #c9d1d9;
 }
 
 a {
