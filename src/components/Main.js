@@ -3,7 +3,6 @@ import "./../App.css";
 import { FaLinkedin, FaEnvelope, FaGithub} from "react-icons/fa";
 import {SiSubstack} from "react-icons/si";
 import Dimension from "./Dimension";
-import Typewriter from "typewriter-effect";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function Main() {
@@ -61,7 +60,7 @@ function Main() {
         </div>
   )
 
-  const menu = (
+   const menu = (
     <div className="menu">
 
       <ul>
