@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
 }
 
 .App-logo {
@@ -39,8 +40,6 @@
 }
 
 .footer {
-  background: #c9d1d9;
-  color: #ffffff;
   width: 100%;
   height: 50px;
   position: absolute;
@@ -48,7 +47,25 @@
   align-items: center;
   bottom: -50;
   left: 0;
-  font-weight: bold;
+
+
+}
+
+.menu {
+    font-size: 18px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+    position: fixed;
+    top: 0; /* Positions the div at the top */
+    right: 0; /* Positions the div at the right */
+    display: block;
+    unicode-bidi: isolate;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .button {
@@ -118,5 +135,4 @@ a {
 }
 
 .footer{
-  color: #070f25
 }

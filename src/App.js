@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
 import Main from "./components/Main"
-import Resume from "./components/Resume"
+// import Resume from "./components/Resume"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
 
-  let year = new Date();
   
   return (
     
@@ -16,16 +15,13 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route path = "/" element = {<Main/>} />
-              <Route path = "/resume" element = {<Resume/>}/>
+              {/* <Route path = "/resume" element = {<Resume/>}/> */}
             </Routes>
           </BrowserRouter>
          
         </div>
 
-        <div className="footer">
-         
-          made with 💖, achinth © {year.getFullYear()}.{" "}
-        </div>
+        
       </div>
     
   );
