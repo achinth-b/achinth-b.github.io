@@ -5,8 +5,15 @@ function Blog() {
   const style = {
     display: "flex",
     padding: '5%',
-    height: '100vh'
+    height: '100vh',
+    position: 'relative',
 
+  }
+
+  const post = {
+    position: 'absolute',
+    left: '0',
+    top: '0'
   }
 
   const menu = (
@@ -17,7 +24,7 @@ function Blog() {
           <a href="/"> home </a>
         </li>
         <li>
-          <a href="/blog"> blog </a>
+          <a href="/posts"> posts </a>
         </li>
         <li>
           <a href="/papers"> papers </a>
@@ -44,27 +51,22 @@ function Blog() {
 
 
     return (
-        <div style={style}>
-            <h1> 
+        <div style={{display: 'flex', height: "100vh"}}>
+            <h1 style={{padding: '5%'}}> 
                 blog
             </h1>
 
-            <div className='blog'>
-                <h2>
-                    Trying to stay committed!
-                </h2>
-
-                <p>
-                    Any independent research I plan on posting its progress here!
-                </p>
-
+            
+                 
+            {menu}
             </div>
 
+                
 
+            
 
-        {menu}
         
-        </div>
+        
     )
 }
 

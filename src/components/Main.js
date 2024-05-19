@@ -68,7 +68,7 @@ function Main() {
           <a href="/"> home </a>
         </li>
         <li>
-          <a href="/blog"> blog </a>
+          <a href="/posts"> posts </a>
         </li>
         <li>
           <a href="/papers"> papers </a>
