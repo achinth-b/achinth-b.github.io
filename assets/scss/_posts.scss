@@ -1,0 +1,46 @@
+.post-entry {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .post-date {
+    min-width: 6rem;
+    color: var(--foreground-color3);
+  }
+  
+  .post-info {
+    flex: 1;
+  }
+  
+  .post-title {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+  }
+  
+  .post-tags {
+    margin-top: 0.25rem;
+  }
+  
+  .post-tag {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 0.875em;
+    color: var(--foreground-color3);
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+    
+    &::before {
+      content: "#";
+      margin-right: 0.125rem;
+    }
+  }
+  
+  .post-category {
+    color: var(--foreground-color3);
+    font-style: italic;
+  }

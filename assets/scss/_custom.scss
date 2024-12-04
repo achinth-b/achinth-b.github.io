@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #070f25;  // Pure black background
+    --background-color1: #1a1a1a; // Slightly lighter black for blockquotes etc
+    --foreground-color: #c9d1d9;  // White text
+    --foreground-color3: #a0a0a0; // Grey for secondary text
+    --accent-color: #ff00ff;      // Blue for links
+  }
+}
