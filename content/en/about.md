@@ -4,6 +4,9 @@ layout: about
 ---
 📍 vancouver, bc / new york, ny
 
+![Achinth Profile Picture](https://scontent.fcxh3-1.fna.fbcdn.net/v/t39.30808-6/363798363_2900136856789153_6822904069110029991_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=enT_X0BQQgIQ7kNvgH6N3U7&_nc_zt=23&_nc_ht=scontent.fcxh3-1.fna&_nc_gid=AAkfmo1uC6DOyd9n0g71tXe&oh=00_AYDrS_7rsnKZXsmc_0Ar3tEM3h08g8x8SjW3bUuYO4fA9Q&oe=67561DB3)
+
+
 here for:
 
 * mechanistic interpretability
