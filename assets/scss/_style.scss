@@ -40,3 +40,20 @@
       margin-left: 0.5rem;
     }
   }
+
+  .body {
+    font-family: $font-family;
+    line-height: $line-height;
+  }
+
+  p,
+  ul,
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-family;
+  }
