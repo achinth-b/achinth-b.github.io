@@ -50,7 +50,7 @@ languages:
           pageRef: /about
           weight: 40
     params:
-      dateFormat: 2006-02-01 # See https://gohugo.io/functions/time/format/
+      dateFormat: 2006/01/01 # See https://gohugo.io/functions/time/format/
       author: Achinth Bharadwaj # Default author, supports single value or list, used in single page
       footer:
         copyright:
