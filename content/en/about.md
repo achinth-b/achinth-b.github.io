@@ -17,8 +17,8 @@ here for:
 
 distracted by:
 
-* canadian politics
 * ultimate
+* canadian politics
 
 I care a lot about fairness, steering generative models and discovering their underlying structures and find meaning from them. AI _is changing_ the world, and we better do a good job of ensuring that future is safe.
 

@@ -39,16 +39,14 @@ languages:
       main:
         - name: home
           pageRef: /
-          weight: 10
-        - name: posts
-          pageRef: /posts
           weight: 20
-        - name: tags
-          pageRef: /tags
-          weight: 30
         - name: about
           pageRef: /about
+          weight: 30
+        - name: tags
+          pageRef: /tags
           weight: 40
+        
     params:
       dateFormat: 2006/01/01 # See https://gohugo.io/functions/time/format/
       author: Achinth Bharadwaj # Default author, supports single value or list, used in single page

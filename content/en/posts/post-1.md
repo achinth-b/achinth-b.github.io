@@ -30,7 +30,7 @@ So, here goes.
   * some of my closest friends, no matter where I go
 * I love playing around with machine learning models and building things on top of them, and perfecting them.
 * I have come to the conclusion that algorithmic bias and AI safety are going to be my life project. I don't want the issues that we have from our past and present metaphysical condition to carry to the new advancements we bring in pursuit of a better future.
-* I am a civic market socialist democrat. I like free-market economics, and I don't like how we got to this point in the human condition where we allowed ourselves to be exploited more. We need a stronger welfare state to raise the floor of every one of our fellow citizens.
+* I am a civic market socialist democrat. I like free-market economics, and I don't like how we got to this point in the human condition where we allowed ourselves to be exploited more. I'm interested in building a stronger, more united and resilient Canada through welfare state to raise the floor for every Canadian.
 * I haven't made peace with the fact that I want to do it all. Maybe I will get there someday.
 * I love trains. I love taking the subway. I love public transit. I love riding my bike wherever it can take me. I despise cars and hate being forced to drive.
 * I hate the McMansions that a stereotypical settled-down dream is associated with. I am a [YIMBY](https://www.housingisahumanright.org/what-is-a-yimby-hint-its-not-good/).
