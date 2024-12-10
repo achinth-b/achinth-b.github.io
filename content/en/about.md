@@ -22,7 +22,8 @@ distracted by:
 
 I care a lot about fairness, steering generative models and discovering their underlying structures and find meaning from them. AI _is changing_ the world, and we better do a good job of ensuring that future is safe.
 
-Among other things, I'm trying to understand if vision models learn racist features and trying to found a startup. In a past life, I focused on a bunch of pursuits which intersect at software engineering, machine learning and 
+Among other things, I'm trying to understand if vision models learn racist features and trying to found a startup. In a past life, I focused on a bunch of pursuits which intersect at software engineering and machine learning. 
+
 **contact**
 
 I love to chat about these new things (or to say hello)! Reach me here:
