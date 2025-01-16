@@ -2,23 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/posts/post-1/</loc>
+    <loc>https://achinth-b.github.io/en/posts/exceptionalism/</loc>
+    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/tags/politics/</loc>
+    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/posts/</loc>
+    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/tags/</loc>
+    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/tags/usa/</loc>
+    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/posts/circuit-discovery-1/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/tags/circuit-discovery/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/tags/mechanistic-interpretability/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/posts/post-1/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>https://achinth-b.github.io/en/tags/self/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/self/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://achinth-b.github.io/en/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://achinth-b.github.io/en/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://achinth-b.github.io/en/categories/</loc>
+  </url><url>
+    <loc>https://achinth-b.github.io/en/experience/</loc>
   </url>
 </urlset>

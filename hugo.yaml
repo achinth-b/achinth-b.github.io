@@ -43,9 +43,12 @@ languages:
         - name: about
           pageRef: /about
           weight: 30
+        - name: experience
+          pageRef: /experience
+          weight: 40
         - name: tags
           pageRef: /tags
-          weight: 40
+          weight: 50
         
     params:
       dateFormat: 2006/01/01 # See https://gohugo.io/functions/time/format/
