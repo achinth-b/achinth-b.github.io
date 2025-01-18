@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tags on achinth</title>
-    <link>https://achinth-b.github.io/en/tags/</link>
+    <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in tags on achinth</description>
     <generator>Hugo</generator>
     <language>en-CA</language>
     <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://achinth-b.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Politics</title>
-      <link>https://achinth-b.github.io/en/tags/politics/</link>
+      <link>http://localhost:1313/en/tags/politics/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/en/tags/politics/</guid>
+      <guid>http://localhost:1313/en/tags/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Usa</title>
-      <link>https://achinth-b.github.io/en/tags/usa/</link>
+      <link>http://localhost:1313/en/tags/usa/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/en/tags/usa/</guid>
+      <guid>http://localhost:1313/en/tags/usa/</guid>
       <description></description>
     </item>
     <item>
       <title>Circuit-Discovery</title>
-      <link>https://achinth-b.github.io/en/tags/circuit-discovery/</link>
+      <link>http://localhost:1313/en/tags/circuit-discovery/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/en/tags/circuit-discovery/</guid>
+      <guid>http://localhost:1313/en/tags/circuit-discovery/</guid>
       <description></description>
     </item>
     <item>
       <title>Mechanistic Interpretability</title>
-      <link>https://achinth-b.github.io/en/tags/mechanistic-interpretability/</link>
+      <link>http://localhost:1313/en/tags/mechanistic-interpretability/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/en/tags/mechanistic-interpretability/</guid>
+      <guid>http://localhost:1313/en/tags/mechanistic-interpretability/</guid>
       <description></description>
     </item>
     <item>
       <title>Self</title>
-      <link>https://achinth-b.github.io/en/tags/self/</link>
+      <link>http://localhost:1313/en/tags/self/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/en/tags/self/</guid>
+      <guid>http://localhost:1313/en/tags/self/</guid>
       <description></description>
     </item>
   </channel>

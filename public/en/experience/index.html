@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="html" lang="en-CA" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>experience | achinth</title>
@@ -8,20 +8,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-      <link rel="stylesheet" href="/css/style.min.3f8a9a853a8f9b4fab6b1688be9903c8c611de708992ebbb5b2ee74890e7ba8c.css" integrity="sha256-P4qahTqPm0&#43;raxaIvpkDyMYR3nCJkuu7Wy7nSJDnuow=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
 
 <link rel="icon" href="/favicon.ico" />
 
-<meta property="og:url" content="https://achinth-b.github.io/en/experience/">
+<meta property="og:url" content="http://localhost:1313/en/experience/">
   <meta property="og:site_name" content="achinth">
   <meta property="og:title" content="experience">
   <meta property="og:locale" content="en_CA">
   <meta property="og:type" content="article">
-    <meta property="og:image" content="https://achinth-b.github.io/favicon.ico">
+    <meta property="og:image" content="http://localhost:1313/favicon.ico">
 
 
   <meta itemprop="name" content="experience">
-  <meta itemprop="image" content="https://achinth-b.github.io/favicon.ico">
+  <meta itemprop="image" content="http://localhost:1313/favicon.ico">
 
 
 </head>
@@ -55,57 +55,51 @@
   <div class="experience-entries">
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">2023 — 2024</span>
+        <div class="experience-date">2023 — 2024</div>
+        <div class="experience-content">
           <div class="experience-title-company">software engineer at palantir</div>
+          <div class="experience-location">new york city</div>
         </div>
-        <div class="experience-location">new york city</div>
-        
       </div>
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">summer 2023</span>
+        <div class="experience-date">summer 2023</div>
+        <div class="experience-content">
           <div class="experience-title-company">machine learning researcher at ubc</div>
+          <div class="experience-location">vancouver</div>
         </div>
-        <div class="experience-location">vancouver</div>
-        
       </div>
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">summer 2022</span>
+        <div class="experience-date">summer 2022</div>
+        <div class="experience-content">
           <div class="experience-title-company">software engineer intern at meta</div>
+          <div class="experience-location">new york city</div>
         </div>
-        <div class="experience-location">new york city</div>
-        
       </div>
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">fall 2021</span>
+        <div class="experience-date">fall 2021</div>
+        <div class="experience-content">
           <div class="experience-title-company">software engineer intern at tesla</div>
+          <div class="experience-location">san francisco bay area</div>
         </div>
-        <div class="experience-location">san francisco bay area</div>
-        
       </div>
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">summer 2021</span>
+        <div class="experience-date">summer 2021</div>
+        <div class="experience-content">
           <div class="experience-title-company">software engineer intern at covalent</div>
+          <div class="experience-location">vancouver</div>
         </div>
-        <div class="experience-location">vancouver</div>
-        
       </div>
     
       <div class="experience-entry">
-        <div class="experience-header">
-          <span class="experience-date">winter &#43; summer 2020</span>
+        <div class="experience-date">winter &#43; summer 2020</div>
+        <div class="experience-content">
           <div class="experience-title-company">software engineer intern at boeing</div>
+          <div class="experience-location">vancouver</div>
         </div>
-        <div class="experience-location">vancouver</div>
-        
       </div>
     
   </div>
@@ -117,43 +111,52 @@
     
     .experience-entry {
       margin-bottom: 2rem;
-      position: relative;
-      min-height: 4rem;   
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 2rem;
     }
     
     .experience-date {
       color: #fff;
       font-size: 0.9rem;
-      width: 150px;
-      white-space: pre-line;   
+      white-space: pre-line;
+    }
+    
+    .experience-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
     }
     
     .experience-title-company {
-      position: absolute;
-      left: calc(150px + 2rem);
-      top: 0;
       font-size: 1.2rem;
       font-weight: 400;
       line-height: 1.2;
     }
     
     .experience-location {
-      position: absolute;
-      left: calc(150px + 2rem);
-      top: 1.8rem;   
       color: #fff;
       font-size: 0.9rem;
     }
-    
-    .experience-description {
-      position: absolute;
-      left: calc(150px + 2rem);
-      top: 3rem;   
-      font-size: 0.95rem;
-      line-height: 1.5;
+
+    @media (max-width: 768px) {
+      .experience-entry {
+        grid-template-columns: 120px 1fr;
+        gap: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .experience-entry {
+        grid-template-columns: 100px 1fr;
+        gap: 0.75rem;
+      }
+      
+      .experience-title-company {
+        font-size: 1.1rem;
+      }
     }
   </style>
-
 
   </main>
   <footer class="footer">
