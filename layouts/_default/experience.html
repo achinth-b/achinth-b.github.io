@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ if .Params.experiences }}
+<div class="experiences">
+    {{ range .Params.experiences }}
+    <div class="experience-entry">
+        <span class="experience-date">{{ .date }}</span>
+        <span class="experience-details">{{ .title }} at {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .company }}</a>{{ else }}{{ .company }}{{ end }}</span>
+        {{ if .location }}
+        <div class="experience-location">{{ .location }}</div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}

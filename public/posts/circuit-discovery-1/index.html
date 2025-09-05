@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63802&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[PART 1] circuit discovery: what the hell is it? | achinth</title>
+    <meta name="description" content="AI engineer interested in mechanistic interpretability, algorithmic bias, and red teaming generative models.">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/torus-three.js" defer></script>
+    <script src="/js/carousel.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="site-title">
+                <a href="/">achinth</a>
+            </h1>
+            <nav>
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+<article>
+    <header>
+        <h1>[PART 1] circuit discovery: what the hell is it?</h1>
+        
+        <div class="post-meta">
+            December 10, 2024
+        </div>
+        
+        
+        <div class="tags">
+            
+            <a href="/tags/circuit-discovery" class="tag">circuit-discovery</a>
+            
+            <a href="/tags/mechanistic-interpretability" class="tag">mechanistic interpretability</a>
+            
+        </div>
+        
+    </header>
+    
+    <div class="content">
+        <p><em>This is part one of a series of posts about learning biased circuits in vision/language models. I want to publish a paper to ICML at the end of this.</em></p>
+<p>Like most people, I don&rsquo;t know anything about this entire sub-field.
+It&rsquo;s exhausting, humbling and most of all - exciting to learn something new about how we can understand generative models.</p>
+<p>Thanks to <a href="https://www.perplexity.ai/">perplexity</a>, I get to learn what this subfield is. Let&rsquo;s get started.</p>
+<h2 id="what-is-circuit-discovery-and-how-did-we-get-here">what is circuit discovery and how did we get here?</h2>
+<p>Circuit discovery is a technique from mechanistic interpretability which aims to identify and analyze the internals of generative models.
+The abstraction tis technique interfaces with is on identifying &lsquo;circuits&rsquo; - or more precisely, pathways through which transformers process information.</p>
+<h3 id="contextual-decomposition">contextual decomposition</h3>
+<p>One method method of circuit discovery in transformers is &lsquo;contextual decomposition (CD) for transformers&rsquo;. This works by:</p>
+<ul>
+<li>
+<p>recursive computation: CD recursively computes the contributions of all nodes (eg. attention heads, neurons) in the model&rsquo;s computational graph. This means that for each output, the method assesses how much each component controbutes to the output based on its interactions with other components.</p>
+</li>
+<li>
+<p>equations: this method uses a set of well-defined equations which isolate the contributions of one model feature from another. This allows for a clear understanding of how specific features affect the overall behaviour of the model.</p>
+</li>
+<li>
+<p>pruning: after the contributions have been calculated, CD applies a pruning step to removes node that insignificantly impact the output. THis step simplifies the discovered circuit and focuses on the most relevant components.</p>
+</li>
+</ul>
+<h4 id="advantages-and-disadvantages-of-contextual-decomposition">advantages and disadvantages of contextual decomposition</h4>
+<p>Having been evaluated over several circuit evaluation tasks such as indiret object identification and greater-than comparisons, CD has a high degree of faithfulness to the original model&rsquo;s behaviour, replicating its performance for fewer nodes than competing approaches. It also doesn&rsquo;t require manual crafting of examples or additional training, making it applicable across various transformer architectures.</p>
+<h3 id="sparse-autoencoders">sparse autoencoders</h3>
+<p>Sparse autoencoders (SAEs) are a specialized type of autoencoder which focuses on learning efficient represntations of data by enforcing sparsity in encoded representations. This works by:</p>
+<ul>
+<li>
+<p>compressing input data into a lower-dimensional representation and a decoder that reconstructs the original input from this representation - with the added benefit of enforcing a sparsity constraint in the latent space by adding it to the loss function (which I just was reminded - is L1 regularization.)</p>
+</li>
+<li>
+<p>breaking down neural networks into understandable components without requiring labelled examples. Since sparsity is enforced, most noisy variables are ignored as well as irrelevant information.</p>
+</li>
+</ul>
+
+    </div>
+</article>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Achinth</p>
+        </footer>
+    </div>
+</body>
+</html>

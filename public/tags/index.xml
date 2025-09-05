@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on achinth</title>
+    <link>http://localhost:63802/tags/</link>
+    <description>Recent content in Tags on achinth</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:63802/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Politics</title>
+      <link>http://localhost:63802/tags/politics/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usa</title>
+      <link>http://localhost:63802/tags/usa/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/usa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Circuit-Discovery</title>
+      <link>http://localhost:63802/tags/circuit-discovery/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/circuit-discovery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mechanistic Interpretability</title>
+      <link>http://localhost:63802/tags/mechanistic-interpretability/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/mechanistic-interpretability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self</title>
+      <link>http://localhost:63802/tags/self/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/self/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

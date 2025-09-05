@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <script src="{{ "/js/torus-three.js" | relURL }}" defer></script>
+    <script src="{{ "/js/carousel.js" | relURL }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="site-title">
+                <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+            </h1>
+            <nav>
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <footer>
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}</p>
+        </footer>
+    </div>
+</body>
+</html>

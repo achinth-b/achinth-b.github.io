@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home on achinth</title>
+    <link>http://localhost:63802/</link>
+    <description>Recent content in home on achinth</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:63802/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on american exceptionalism, sriram and immigration</title>
+      <link>http://localhost:63802/posts/exceptionalism/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/posts/exceptionalism/</guid>
+      <description>&lt;p&gt;I was enjoying solitude on Christmas eve, when I came across this tweet:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[PART 1] circuit discovery: what the hell is it?</title>
+      <link>http://localhost:63802/posts/circuit-discovery-1/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/posts/circuit-discovery-1/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is part one of a series of posts about learning biased circuits in vision/language models. I want to publish a paper to ICML at the end of this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Like most people, I don&amp;rsquo;t know anything about this entire sub-field.&#xA;It&amp;rsquo;s exhausting, humbling and most of all - exciting to learn something new about how we can understand generative models.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;perplexity&lt;/a&gt;, I get to learn what this subfield is. Let&amp;rsquo;s get started.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hi!</title>
+      <link>http://localhost:63802/posts/post-1/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/posts/post-1/</guid>
+      <description>&lt;p&gt;This year, has been the darkest of my life so far. I lost my job. I lost some dear friends. I lost hope. I herniated my back. I moved back home. In the pursuit of the things I accomplished, &lt;em&gt;I forgot who I was supposed to be&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So I forced myself to think more about what I&amp;rsquo;m doing here. I started writing my thoughts which felt disgustingly difficult at first. My self-confidence has never been lower, and if I don&amp;rsquo;t get comfortable with myself again, I will end up falling deeper into the hole I&amp;rsquo;ve been living in for the past six months.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>experience</title>
+      <link>http://localhost:63802/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/experience/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ if .Pages }}
+{{ $currentYear := "" }}
+{{ range .Pages }}
+    {{ $year := .Date.Format "2006" }}
+    {{ if ne $year $currentYear }}
+        {{ if ne $currentYear "" }}
+        </div>
+        {{ end }}
+        <h2>{{ $year }}</h2>
+        <div class="year-posts">
+        {{ $currentYear = $year }}
+    {{ end }}
+    <div class="post-entry">
+        <span class="post-date">{{ .Date.Format "Jan 2" }}</span>
+        <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+    </div>
+{{ end }}
+{{ if ne $currentYear "" }}
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
