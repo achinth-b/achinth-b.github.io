@@ -2,41 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:63802/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/posts/exceptionalism/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/politics/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/prisoners-dilemma/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/posts/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/usa/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/prisoner-dilemma/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/posts/circuit-discovery-1/</loc>
+    <loc>http://localhost:1313/posts/circuit-discovery-1/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/circuit-discovery/</loc>
+    <loc>http://localhost:1313/tags/circuit-discovery/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/mechanistic-interpretability/</loc>
+    <loc>http://localhost:1313/tags/mechanistic-interpretability/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/posts/post-1/</loc>
+    <loc>http://localhost:1313/posts/post-1/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/tags/self/</loc>
+    <loc>http://localhost:1313/tags/self/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63802/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:63802/experience/</loc>
+    <loc>http://localhost:1313/experience/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/politics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/usa/</loc>
   </url>
 </urlset>

@@ -6,20 +6,20 @@
     <description>Recent content in Tags on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:63802/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Politics</title>
-      <link>http://localhost:63802/tags/politics/</link>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63802/tags/politics/</guid>
+      <title>Prisoner&#39;s Dilemma</title>
+      <link>http://localhost:63802/tags/prisoners-dilemma/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/prisoners-dilemma/</guid>
       <description></description>
     </item>
     <item>
-      <title>Usa</title>
-      <link>http://localhost:63802/tags/usa/</link>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63802/tags/usa/</guid>
+      <title>Statistical Analysis</title>
+      <link>http://localhost:63802/tags/statistical-analysis/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/statistical-analysis/</guid>
       <description></description>
     </item>
     <item>
@@ -41,6 +41,20 @@
       <link>http://localhost:63802/tags/self/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:63802/tags/self/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politics</title>
+      <link>http://localhost:63802/tags/politics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usa</title>
+      <link>http://localhost:63802/tags/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63802/tags/usa/</guid>
       <description></description>
     </item>
   </channel>
