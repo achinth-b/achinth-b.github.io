@@ -30,7 +30,6 @@ here for:
 * algorithmic bias
 * red teaming generative models
 * representation engineering
-* search
 
 distracted by:
 

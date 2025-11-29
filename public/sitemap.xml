@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/democratic-socialism/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/political-pragmatism/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/politics/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zohran-mamdani/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/zohran-cantillion/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/prisoners-dilemma/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/statistical-analysis/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/prisoner-dilemma/</loc>
@@ -38,9 +53,5 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/politics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/usa/</loc>
   </url>
 </urlset>
