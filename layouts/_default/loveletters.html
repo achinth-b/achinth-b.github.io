@@ -1,0 +1,38 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ if .Params.letters }}
+<div class="love-letters-container">
+    {{ range $index, $letter := .Params.letters }}
+    <details class="love-letter-entry">
+        <summary class="love-letter-name">{{ $letter.name }}</summary>
+        <div class="love-letter-content">
+            {{ $letter.content | markdownify }}
+        </div>
+    </details>
+    {{ end }}
+</div>
+
+<script>
+// Accordion behavior: only one open at a time
+document.querySelectorAll('.love-letter-entry').forEach(details => {
+    details.addEventListener('toggle', () => {
+        if (details.open) {
+            document.querySelectorAll('.love-letter-entry').forEach(other => {
+                if (other !== details && other.open) {
+                    other.open = false;
+                }
+            });
+        }
+    });
+});
+</script>
+{{ end }}
+{{ end }}
+

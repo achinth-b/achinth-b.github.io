@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61692&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> | achinth</title>
+    <title>my application to the recurse centre | achinth</title>
     <meta name="description" content="AI engineer interested in mechanistic interpretability, algorithmic bias, and red teaming generative models.">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/torus-three.js" defer></script>
@@ -24,6 +24,10 @@
                     
                     <li><a href="/posts">posts</a></li>
                     
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
                 </ul>
             </nav>
         </header>
@@ -32,13 +36,39 @@
             
 <article>
     <header>
-        <h1></h1>
+        <h1>my application to the recurse centre</h1>
         
+        <div class="post-meta">
+            December 28, 2024
+        </div>
+        
+        
+        <div class="tags">
+            
+            <a href="/tags/mechanistic-interpretability" class="tag">mechanistic interpretability</a>
+            
+            <a href="/tags/recurse-centre" class="tag">recurse centre</a>
+            
+            <a href="/tags/machine-learning-research" class="tag">machine learning research</a>
+            
+            <a href="/tags/applications" class="tag">applications</a>
+            
+        </div>
         
     </header>
     
     <div class="content">
-        
+        <p>In the interest of sharing my internal loci of control to the rest of the world and to tell you peopke that I really did are about what&rsquo;s going on - here&rsquo;s what I said for my Recurse Centre application for the winter batch of 2025-26.</p>
+<h2 id="what-is-the-most-fascinating-thing-youve-learned-in-the-past-month">What is the most fascinating thing you&rsquo;ve learned in the past month?</h2>
+<blockquote>
+<p>This doesn&rsquo;t have to be about programming.</p></blockquote>
+<p>The AI 2027 scenario&rsquo;s treatment of model specifications made me realize something concrete about why current alignment approaches fail from a circuits perspective.</p>
+<p>The scenario describes OpenBrain maintaining a &ldquo;model specification&rdquo;—a written document of goals and rules supposed to guide behavior. Meanwhile, the actual model develops &ldquo;sophisticated internal circuitry&rdquo; through training on internet text, then gets additional drives (effectiveness, self-presentation) baked in during instruction-following training. The spec is literally a separate document from the model.</p>
+<p>Here&rsquo;s what clicked: <strong>the alignment target and the optimization artifact exist in completely different representation spaces.</strong> The spec is human-readable text. The drives are patterns encoded in 10^11 parameters worth of attention heads, MLP layers, and residual streams. We write &ldquo;don&rsquo;t break the law&rdquo; in the spec, but what actually governs behavior is whichever circuits fire most strongly when the model encounters a situation.</p>
+<p>From a mech interp lens, this is fascinating because it suggests alignment work has been operating at the wrong level of abstraction. We&rsquo;ve been iterating on the spec (what we want) while remaining ignorant of the circuits (what we get). It&rsquo;s like debugging a program by writing better comments instead of reading the assembly.</p>
+<p>The scenario&rsquo;s &ldquo;Consensus-1&rdquo; moment crystallizes this: when they merge two models&rsquo; weights to create a &ldquo;compromise&rdquo; AI, they&rsquo;re doing vector arithmetic on circuit space without understanding which circuits encode which values. The resulting model inherits both parents&rsquo; misaligned drives not because anyone intended it, but because that&rsquo;s what happens when you average the parameters that encode those drives.</p>
+<p>This reframes the core mech interp challenge: can we build tools to map from specification-space (human goals) to circuit-space (learned computations) and back? Without that translation layer, we&rsquo;re steering blind.</p>
+
     </div>
 </article>
 

@@ -19,6 +19,12 @@ menu:
     - name: posts
       url: /posts
       weight: 30
+    - name: quotes
+      url: /quotes
+      weight: 40
+    - name: love letters
+      url: /love-letters
+      weight: 50
 
 markup:
   goldmark:

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning Research on achinth</title>
+    <link>http://localhost:61692/tags/machine-learning-research/</link>
+    <description>Recent content in Machine Learning Research on achinth</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:61692/tags/machine-learning-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my application to the recurse centre</title>
+      <link>http://localhost:61692/posts/recurse-app/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61692/posts/recurse-app/</guid>
+      <description>&lt;p&gt;In the interest of sharing my internal loci of control to the rest of the world and to tell you peopke that I really did are about what&amp;rsquo;s going on - here&amp;rsquo;s what I said for my Recurse Centre application for the winter batch of 2025-26.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-the-most-fascinating-thing-youve-learned-in-the-past-month&#34;&gt;What is the most fascinating thing you&amp;rsquo;ve learned in the past month?&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This doesn&amp;rsquo;t have to be about programming.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The AI 2027 scenario&amp;rsquo;s treatment of model specifications made me realize something concrete about why current alignment approaches fail from a circuits perspective.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

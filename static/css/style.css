@@ -672,6 +672,116 @@ nav a:focus,
   color: #ccc;
 }
 
+/* Quotes */
+.quotes-container {
+  margin-top: 2rem;
+}
+
+.year-quotes {
+  margin-bottom: 2rem;
+}
+
+.quote-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.quote-date {
+  color: #888;
+  font-size: 0.9rem;
+  min-width: 60px;
+  flex-shrink: 0;
+  padding-top: 0.1rem;
+}
+
+.quote-body {
+  flex: 1;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  border: none;
+}
+
+.quote-text p {
+  margin: 0;
+}
+
+.quote-translation {
+  font-style: italic;
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Love Letters */
+.love-letters-container {
+  margin-top: 2rem;
+}
+
+.love-letter-entry {
+  margin-bottom: 0.75rem;
+  border: 1px solid #666;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.love-letter-name {
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  background: transparent;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.love-letter-name::-webkit-details-marker {
+  display: none;
+}
+
+.love-letter-name::after {
+  content: '▼';
+  font-size: 0.6rem;
+  color: #888;
+  transition: transform 0.3s ease;
+}
+
+.love-letter-entry[open] .love-letter-name::after {
+  transform: rotate(180deg);
+}
+
+.love-letter-content {
+  padding: 0 1rem 1rem;
+  background: transparent;
+  color: #ccc;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.love-letter-content p {
+  margin-bottom: 1rem;
+}
+
+.love-letter-content p:last-child {
+  margin-bottom: 0;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .container {

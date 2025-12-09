@@ -1,0 +1,50 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ if .Params.quotes }}
+{{ $quotes := .Params.quotes }}
+{{ $years := slice }}
+
+{{/* Extract unique years */}}
+{{ range $quotes }}
+    {{ $year := (time .date).Format "2006" }}
+    {{ if not (in $years $year) }}
+        {{ $years = $years | append $year }}
+    {{ end }}
+{{ end }}
+
+{{/* Sort years descending */}}
+{{ $years = sort $years "value" "desc" }}
+
+<div class="quotes-container">
+    {{ range $year := $years }}
+    <h2>{{ $year }}</h2>
+    <div class="year-quotes">
+        {{ range $quotes }}
+            {{ $quoteYear := (time .date).Format "2006" }}
+            {{ if eq $quoteYear $year }}
+            <div class="quote-entry">
+                <span class="quote-date">{{ (time .date).Format "Jan 2" }}</span>
+                <div class="quote-body">
+                    <blockquote class="quote-text">{{ .text | markdownify }}</blockquote>
+                    {{ if .translation }}
+                    <div class="quote-translation">{{ .translation }}</div>
+                    {{ end }}
+                    {{ if .author }}
+                    <div class="quote-author">— {{ .author }}</div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
