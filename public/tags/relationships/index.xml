@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Relationships on achinth</title>
-    <link>http://localhost:61692/tags/relationships/</link>
+    <link>http://localhost:1313/tags/relationships/</link>
     <description>Recent content in Relationships on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61692/tags/relationships/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/relationships/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>why I don&#39;t think I&#39;d make a good parent</title>
-      <link>http://localhost:61692/posts/fatherhood/</link>
+      <link>http://localhost:1313/posts/fatherhood/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61692/posts/fatherhood/</guid>
+      <guid>http://localhost:1313/posts/fatherhood/</guid>
       <description>&lt;p&gt;I was raised, and have good parents. My father is the best father in the world.&lt;/p&gt;&#xA;&lt;p&gt;I have the greatest examples of ideal parenting from my mother and father. If I can be half as good as a parent as they collectively were; then I think any child I raise would grow to being a formidable, self-sufficient and healthy adult. So why do I think I wouldn&amp;rsquo;t make for beign a good father? I went and asked my own - and he said (paraphrased from Kannada):&lt;/p&gt;</description>
     </item>
   </channel>

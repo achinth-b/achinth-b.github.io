@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usa on achinth</title>
-    <link>http://localhost:61692/tags/usa/</link>
+    <link>http://localhost:1313/tags/usa/</link>
     <description>Recent content in Usa on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61692/tags/usa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/usa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on american exceptionalism, sriram and immigration</title>
-      <link>http://localhost:61692/posts/exceptionalism/</link>
+      <link>http://localhost:1313/posts/exceptionalism/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61692/posts/exceptionalism/</guid>
+      <guid>http://localhost:1313/posts/exceptionalism/</guid>
       <description>&lt;p&gt;I was enjoying solitude on Christmas eve, when I came across this tweet:&lt;/p&gt;</description>
     </item>
   </channel>

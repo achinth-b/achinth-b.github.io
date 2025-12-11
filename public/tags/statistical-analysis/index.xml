@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistical Analysis on achinth</title>
-    <link>https://achinth-b.github.io/tags/statistical-analysis/</link>
+    <link>http://localhost:1313/tags/statistical-analysis/</link>
     <description>Recent content in Statistical Analysis on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://achinth-b.github.io/tags/statistical-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/statistical-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>the prisoner&#39;s dilemma is the worst parable for real-life collaboration</title>
-      <link>https://achinth-b.github.io/posts/prisoner-dilemma/</link>
+      <link>http://localhost:1313/posts/prisoner-dilemma/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/prisoner-dilemma/</guid>
+      <guid>http://localhost:1313/posts/prisoner-dilemma/</guid>
       <description>&lt;p&gt;tl; dr: individual rationality is a really, really bad delineator for both individual and collective decision making.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-prisoners-dilemma&#34;&gt;why prisoner&amp;rsquo;s dilemma?&lt;/h2&gt;&#xA;&lt;p&gt;The prisoner&amp;rsquo;s dilemma is used as a motif for&lt;/p&gt;&#xA;&lt;h2 id=&#34;payoff-and-imprisonment-under-the-typical-game-theory-setup&#34;&gt;payoff and imprisonment under the typical game theory setup&lt;/h2&gt;&#xA;&lt;p&gt;In the typical prisoner&amp;rsquo;s dilemma setup, you have two prisoners being interrogated at the same time for a crime they are accused of. Each prisoner has a choice - either rat out to the prosecution (which we will call &amp;lsquo;defection&amp;rsquo;), or stay silent and do nothing (which we will call &amp;lsquo;cooperation&amp;rsquo;). However - the prosecution is smart. In order to incentivize an outcome from both of the prisoners, this is the decision space they offer to them. Each number here represents the &lt;em&gt;years&lt;/em&gt; that they spend in prison.&lt;/p&gt;</description>
     </item>
   </channel>

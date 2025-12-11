@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Circuit-Discovery on achinth</title>
-    <link>https://achinth-b.github.io/tags/circuit-discovery/</link>
+    <link>http://localhost:1313/tags/circuit-discovery/</link>
     <description>Recent content in Circuit-Discovery on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://achinth-b.github.io/tags/circuit-discovery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/circuit-discovery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[PART 1] circuit discovery: what the hell is it?</title>
-      <link>https://achinth-b.github.io/posts/circuit-discovery-1/</link>
+      <link>http://localhost:1313/posts/circuit-discovery-1/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/circuit-discovery-1/</guid>
+      <guid>http://localhost:1313/posts/circuit-discovery-1/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is part one of a series of posts about learning biased circuits in vision/language models. I want to publish a paper to ICML at the end of this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Like most people, I don&amp;rsquo;t know anything about this entire sub-field.&#xA;It&amp;rsquo;s exhausting, humbling and most of all - exciting to learn something new about how we can understand generative models.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;perplexity&lt;/a&gt;, I get to learn what this subfield is. Let&amp;rsquo;s get started.&lt;/p&gt;</description>
     </item>
   </channel>

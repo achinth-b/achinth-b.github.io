@@ -25,6 +25,9 @@ menu:
     - name: love letters
       url: /love-letters
       weight: 50
+    - name: why i'm a demsoc
+      url: /why-im-a-demsoc
+      weight: 60
 
 markup:
   goldmark:

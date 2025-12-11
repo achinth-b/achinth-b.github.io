@@ -1,0 +1,293 @@
+Abitibi
+Abitibi-Ouest
+Acton
+Alberni-Clayoquot
+Albert
+Algoma
+Annapolis
+Antigonish
+Antoine-Labelle
+Argenteuil
+Arthabaska
+Avignon
+Beauce-Sartigan
+Beauharnois-Salaberry
+Bellechasse
+Bonaventure
+Brant
+Brome-Missisquoi
+Bruce
+Bulkley-Nechako
+Bécancour
+Cape Breton
+Capital
+Cariboo
+Carleton
+Central Coast
+Central Kootenay
+Central Okanagan
+Charlevoix
+Charlevoix-Est
+Charlotte
+Chatham-Kent
+Coaticook
+Cochrane
+Colchester
+Columbia-Shuswap
+Communauté maritime des Îles-de-la-Madeleine
+Comox Valley
+Cowichan Valley
+Cumberland
+D'Autray
+Deux-Montagnes
+Digby
+Division No.  1
+Division No.  1
+Division No.  1
+Division No.  1
+Division No.  2
+Division No.  2
+Division No.  2
+Division No.  2
+Division No.  3
+Division No.  3
+Division No.  3
+Division No.  3
+Division No.  4
+Division No.  4
+Division No.  4
+Division No.  4
+Division No.  5
+Division No.  5
+Division No.  5
+Division No.  5
+Division No.  6
+Division No.  6
+Division No.  6
+Division No.  6
+Division No.  7
+Division No.  7
+Division No.  7
+Division No.  7
+Division No.  8
+Division No.  8
+Division No.  8
+Division No.  8
+Division No.  9
+Division No.  9
+Division No.  9
+Division No.  9
+Division No. 10
+Division No. 10
+Division No. 10
+Division No. 10
+Division No. 11
+Division No. 11
+Division No. 11
+Division No. 11
+Division No. 12
+Division No. 12
+Division No. 12
+Division No. 13
+Division No. 13
+Division No. 13
+Division No. 14
+Division No. 14
+Division No. 14
+Division No. 15
+Division No. 15
+Division No. 15
+Division No. 16
+Division No. 16
+Division No. 16
+Division No. 17
+Division No. 17
+Division No. 17
+Division No. 18
+Division No. 18
+Division No. 18
+Division No. 19
+Division No. 19
+Division No. 20
+Division No. 21
+Division No. 22
+Division No. 23
+Drummond
+Dufferin
+Durham
+East Kootenay
+Elgin
+Essex
+Francheville
+Fraser Valley
+Fraser-Fort George
+Frontenac
+Gatineau
+Gloucester
+Greater Sudbury / Grand Sudbury
+Greater Vancouver
+Grey
+Guysborough
+Haldimand-Norfolk
+Haliburton
+Halifax
+Halton
+Hamilton
+Hants
+Hastings
+Huron
+Inverness
+Joliette
+Kamouraska
+Kawartha Lakes
+Kenora
+Kent
+Kings
+Kings
+Kings
+Kitikmeot
+Kitimat-Stikine
+Kivalliq
+Kootenay Boundary
+L'Assomption
+L'Islet
+L'Érable
+L'Île-d'Orléans
+La Côte-de-Beaupré
+La Côte-de-Gaspé
+La Haute-Côte-Nord
+La Haute-Gaspésie
+La Haute-Yamaska
+La Jacques-Cartier
+La Matanie
+La Matapédia
+La Mitis
+La Nouvelle-Beauce
+La Rivière-du-Nord
+La Tuque
+La Vallée-de-l'Or
+La Vallée-de-la-Gatineau
+La Vallée-du-Richelieu
+Lac-Saint-Jean-Est
+Lambton
+Lanark
+Laval
+Le Domaine-du-Roy
+Le Granit
+Le Haut-Richelieu
+Le Haut-Saint-François
+Le Haut-Saint-Laurent
+Le Rocher-Percé
+Le Saguenay-et-son-Fjord
+Le Val-Saint-François
+Leeds and Grenville
+Lennox and Addington
+Les Appalaches
+Les Basques
+Les Collines-de-l'Outaouais
+Les Etchemins
+Les Jardins-de-Napierville
+Les Laurentides
+Les Maskoutains
+Les Moulins
+Les Pays-d'en-Haut
+Les Sources
+Longueuil
+Lotbinière
+Lunenburg
+Lévis
+Madawaska
+Manicouagan
+Manitoulin
+Marguerite-D'Youville
+Maria-Chapdelaine
+Maskinongé
+Matawinie
+Memphrémagog
+Middlesex
+Minganie--Le Golfe-du-Saint-Laurent
+Mirabel
+Montcalm
+Montmagny
+Montréal
+Mount Waddington
+Muskoka
+Mékinac
+Nanaimo
+Niagara
+Nicolet-Yamaska
+Nipissing
+Nord-du-Québec
+North Okanagan
+Northern Rockies
+Northumberland
+Northumberland
+Okanagan-Similkameen
+Ottawa
+Oxford
+Papineau
+Parry Sound
+Peace River
+Peel
+Perth
+Peterborough
+Pictou
+Pierre-De Saurel
+Pontiac
+Portneuf
+Powell River
+Prescott and Russell
+Prince
+Prince Edward
+Qikiqtaaluk
+Queens
+Queens
+Queens
+Québec
+Rainy River
+Region 1
+Region 2
+Region 3
+Region 4
+Region 5
+Region 6
+Renfrew
+Restigouche
+Richmond
+Rimouski-Neigette
+Rivière-du-Loup
+Robert-Cliche
+Roussillon
+Rouville
+Rouyn-Noranda
+Saint John
+Sept-Rivières--Caniapiscau
+Shawinigan
+Shelburne
+Sherbrooke
+Simcoe
+Skeena-Queen Charlotte
+Squamish-Lillooet
+Stikine
+Stormont, Dundas and Glengarry
+Strathcona
+Sudbury
+Sunbury
+Sunshine Coast
+Thompson-Nicola
+Thunder Bay
+Thérèse-De Blainville
+Timiskaming
+Toronto
+Témiscamingue
+Témiscouata
+Vaudreuil-Soulanges
+Victoria
+Victoria
+Waterloo
+Wellington
+Westmorland
+Yarmouth
+York
+York
+Yukon

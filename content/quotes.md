@@ -2,6 +2,11 @@
 title: quotes
 layout: quotes
 quotes:
+
+  - text: "survivorship bias makes cruelty look like wisdom."
+    author: unknown
+    date: 2025-12-10
+
   - text: "our biggest downfall as people is after making it in life, we like to eat with people we never starved with."
     author: unknown
     date: 2025-12-09

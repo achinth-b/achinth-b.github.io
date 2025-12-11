@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>posts on achinth</title>
-    <link>https://achinth-b.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in posts on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://achinth-b.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zohran mamdani, and being priced out of your own economy</title>
-      <link>https://achinth-b.github.io/posts/zohran-cantillion/</link>
+      <link>http://localhost:1313/posts/zohran-cantillion/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/zohran-cantillion/</guid>
+      <guid>http://localhost:1313/posts/zohran-cantillion/</guid>
       <description>&lt;p&gt;Zohran Mamdani is the mayor-elect for New York City.&lt;/p&gt;&#xA;&lt;p&gt;I had my doubts that he was going to win. It was unfathomable to me that a financial centre so focused on the idea of &lt;em&gt;winning&lt;/em&gt; (in the capitalist sense) was capable of entertaining a democratic socialist. I stand happily corrected, and extremely proud that he has won the election. His win and agenda &lt;strong&gt;here&lt;/strong&gt; are a paradigm shift of the priorities of the electorate. So, I think the first question to as is: What changed?&lt;/p&gt;</description>
     </item>
     <item>
       <title>the prisoner&#39;s dilemma is the worst parable for real-life collaboration</title>
-      <link>https://achinth-b.github.io/posts/prisoner-dilemma/</link>
+      <link>http://localhost:1313/posts/prisoner-dilemma/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/prisoner-dilemma/</guid>
+      <guid>http://localhost:1313/posts/prisoner-dilemma/</guid>
       <description>&lt;p&gt;tl; dr: individual rationality is a really, really bad delineator for both individual and collective decision making.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-prisoners-dilemma&#34;&gt;why prisoner&amp;rsquo;s dilemma?&lt;/h2&gt;&#xA;&lt;p&gt;The prisoner&amp;rsquo;s dilemma is used as a motif for&lt;/p&gt;&#xA;&lt;h2 id=&#34;payoff-and-imprisonment-under-the-typical-game-theory-setup&#34;&gt;payoff and imprisonment under the typical game theory setup&lt;/h2&gt;&#xA;&lt;p&gt;In the typical prisoner&amp;rsquo;s dilemma setup, you have two prisoners being interrogated at the same time for a crime they are accused of. Each prisoner has a choice - either rat out to the prosecution (which we will call &amp;lsquo;defection&amp;rsquo;), or stay silent and do nothing (which we will call &amp;lsquo;cooperation&amp;rsquo;). However - the prosecution is smart. In order to incentivize an outcome from both of the prisoners, this is the decision space they offer to them. Each number here represents the &lt;em&gt;years&lt;/em&gt; that they spend in prison.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[PART 1] circuit discovery: what the hell is it?</title>
-      <link>https://achinth-b.github.io/posts/circuit-discovery-1/</link>
+      <link>http://localhost:1313/posts/circuit-discovery-1/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/circuit-discovery-1/</guid>
+      <guid>http://localhost:1313/posts/circuit-discovery-1/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is part one of a series of posts about learning biased circuits in vision/language models. I want to publish a paper to ICML at the end of this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Like most people, I don&amp;rsquo;t know anything about this entire sub-field.&#xA;It&amp;rsquo;s exhausting, humbling and most of all - exciting to learn something new about how we can understand generative models.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;perplexity&lt;/a&gt;, I get to learn what this subfield is. Let&amp;rsquo;s get started.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi!</title>
-      <link>https://achinth-b.github.io/posts/post-1/</link>
+      <link>http://localhost:1313/posts/post-1/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/post-1/</guid>
+      <guid>http://localhost:1313/posts/post-1/</guid>
       <description>&lt;p&gt;This year, has been the darkest of my life so far. I lost my job. I lost some dear friends. I lost hope. I herniated my back. I moved back home. In the pursuit of the things I accomplished, &lt;em&gt;I forgot who I was supposed to be&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So I forced myself to think more about what I&amp;rsquo;m doing here. I started writing my thoughts which felt disgustingly difficult at first. My self-confidence has never been lower, and if I don&amp;rsquo;t get comfortable with myself again, I will end up falling deeper into the hole I&amp;rsquo;ve been living in for the past six months.&lt;/p&gt;</description>
     </item>
   </channel>

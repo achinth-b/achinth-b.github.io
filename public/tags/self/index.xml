@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self on achinth</title>
-    <link>https://achinth-b.github.io/tags/self/</link>
+    <link>http://localhost:1313/tags/self/</link>
     <description>Recent content in Self on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://achinth-b.github.io/tags/self/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/self/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hi!</title>
-      <link>https://achinth-b.github.io/posts/post-1/</link>
+      <link>http://localhost:1313/posts/post-1/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://achinth-b.github.io/posts/post-1/</guid>
+      <guid>http://localhost:1313/posts/post-1/</guid>
       <description>&lt;p&gt;This year, has been the darkest of my life so far. I lost my job. I lost some dear friends. I lost hope. I herniated my back. I moved back home. In the pursuit of the things I accomplished, &lt;em&gt;I forgot who I was supposed to be&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So I forced myself to think more about what I&amp;rsquo;m doing here. I started writing my thoughts which felt disgustingly difficult at first. My self-confidence has never been lower, and if I don&amp;rsquo;t get comfortable with myself again, I will end up falling deeper into the hole I&amp;rsquo;ve been living in for the past six months.&lt;/p&gt;</description>
     </item>
   </channel>

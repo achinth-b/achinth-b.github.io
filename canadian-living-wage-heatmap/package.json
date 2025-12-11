@@ -1,0 +1,28 @@
+{
+  "name": "canadian-living-wage-heatmap",
+  "version": "1.0.0",
+  "description": "Interactive heatmap of living wages in Canada",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "process-geo": "node scripts/process_geo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "topojson-client": "^3.1.0",
+    "d3-scale": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "mapshaper": "^0.6.43",
+    "vite": "^5.0.0"
+  }
+}

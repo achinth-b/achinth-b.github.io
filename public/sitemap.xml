@@ -2,60 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://achinth-b.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/democratic-socialism/</loc>
+    <loc>http://localhost:1313/tags/democratic-socialism/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/political-pragmatism/</loc>
+    <loc>http://localhost:1313/tags/political-pragmatism/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/politics/</loc>
+    <loc>http://localhost:1313/tags/politics/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/zohran-mamdani/</loc>
+    <loc>http://localhost:1313/tags/zohran-mamdani/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/posts/zohran-cantillion/</loc>
+    <loc>http://localhost:1313/posts/zohran-cantillion/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/prisoners-dilemma/</loc>
+    <loc>http://localhost:1313/tags/prisoners-dilemma/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/statistical-analysis/</loc>
+    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/posts/prisoner-dilemma/</loc>
+    <loc>http://localhost:1313/posts/prisoner-dilemma/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/posts/circuit-discovery-1/</loc>
+    <loc>http://localhost:1313/posts/circuit-discovery-1/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/circuit-discovery/</loc>
+    <loc>http://localhost:1313/tags/circuit-discovery/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/mechanistic-interpretability/</loc>
+    <loc>http://localhost:1313/tags/mechanistic-interpretability/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/posts/post-1/</loc>
+    <loc>http://localhost:1313/posts/post-1/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/tags/self/</loc>
+    <loc>http://localhost:1313/tags/self/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://achinth-b.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://achinth-b.github.io/experience/</loc>
+    <loc>http://localhost:1313/experience/</loc>
   </url><url>
-    <loc>https://achinth-b.github.io/love-letters/</loc>
+    <loc>http://localhost:1313/love-letters/</loc>
   </url><url>
-    <loc>https://achinth-b.github.io/quotes/</loc>
+    <loc>http://localhost:1313/quotes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/why-im-a-demsoc/</loc>
   </url>
 </urlset>
