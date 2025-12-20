@@ -6,28 +6,21 @@
     <description>Recent content in posts on achinth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>what does it mean to be Canadian?</title>
+      <link>http://localhost:1313/posts/canada/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/canada/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a tough year for us Canadians. Between&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a stalling economy and rampant inflation,&lt;/li&gt;&#xA;&lt;li&gt;internal political polarization, and&lt;/li&gt;&#xA;&lt;li&gt;the spectacle of our neighbour consuming itself in an identity crisis,&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;we&amp;rsquo;re all a little, maybe more than a little, fatigued.&lt;/p&gt;&#xA;&lt;p&gt;Recently, Vivek Ramaswamy - a man who I reject both personally and politically - published an essay in the New York Times titled &amp;lsquo;What is an American&amp;rsquo; to help crystallize his movement&amp;rsquo;s &lt;em&gt;raison de combattre&lt;/em&gt;.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; While I reject his politics and his worldview, I found his central provocations holding a mirror to my own experience with my national identity. In a world where old certitudes are dissolving and we feel so unmoored in our identities and realities, I find myself asking the ever-so-important question: &lt;strong&gt;what does it mean to be Canadian?&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>zohran mamdani, and being priced out of your own economy</title>
       <link>http://localhost:1313/posts/zohran-cantillion/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/zohran-cantillion/</guid>
-      <description>&lt;p&gt;Zohran Mamdani is the mayor-elect for New York City.&lt;/p&gt;&#xA;&lt;p&gt;I had my doubts that he was going to win. It was unfathomable to me that a financial centre so focused on the idea of &lt;em&gt;winning&lt;/em&gt; (in the capitalist sense) was capable of entertaining a democratic socialist. I stand happily corrected, and extremely proud that he has won the election. His win and agenda &lt;strong&gt;here&lt;/strong&gt; are a paradigm shift of the priorities of the electorate. So, I think the first question to as is: What changed?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>the prisoner&#39;s dilemma is the worst parable for real-life collaboration</title>
-      <link>http://localhost:1313/posts/prisoner-dilemma/</link>
-      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/prisoner-dilemma/</guid>
-      <description>&lt;p&gt;tl; dr: individual rationality is a really, really bad delineator for both individual and collective decision making.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-prisoners-dilemma&#34;&gt;why prisoner&amp;rsquo;s dilemma?&lt;/h2&gt;&#xA;&lt;p&gt;The prisoner&amp;rsquo;s dilemma is used as a motif for&lt;/p&gt;&#xA;&lt;h2 id=&#34;payoff-and-imprisonment-under-the-typical-game-theory-setup&#34;&gt;payoff and imprisonment under the typical game theory setup&lt;/h2&gt;&#xA;&lt;p&gt;In the typical prisoner&amp;rsquo;s dilemma setup, you have two prisoners being interrogated at the same time for a crime they are accused of. Each prisoner has a choice - either rat out to the prosecution (which we will call &amp;lsquo;defection&amp;rsquo;), or stay silent and do nothing (which we will call &amp;lsquo;cooperation&amp;rsquo;). However - the prosecution is smart. In order to incentivize an outcome from both of the prisoners, this is the decision space they offer to them. Each number here represents the &lt;em&gt;years&lt;/em&gt; that they spend in prison.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[PART 1] circuit discovery: what the hell is it?</title>
-      <link>http://localhost:1313/posts/circuit-discovery-1/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/circuit-discovery-1/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This is part one of a series of posts about learning biased circuits in vision/language models. I want to publish a paper to ICML at the end of this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Like most people, I don&amp;rsquo;t know anything about this entire sub-field.&#xA;It&amp;rsquo;s exhausting, humbling and most of all - exciting to learn something new about how we can understand generative models.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;perplexity&lt;/a&gt;, I get to learn what this subfield is. Let&amp;rsquo;s get started.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Zohran Mamdani is the mayor-elect for New York City.&lt;/p&gt;&#xA;&lt;p&gt;I had my doubts that he was going to win. It was unfathomable to me that a financial centre so focused on the idea of &lt;em&gt;winning&lt;/em&gt; (in the capitalist sense) was capable of entertaining a democratic socialist. I stand happily corrected, and extremely proud that he has won the election. His win and agenda &lt;strong&gt;in New York City&lt;/strong&gt; are a paradigm shift of the priorities of the electorate. So, I think the first question to ask is: What changed?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hi!</title>

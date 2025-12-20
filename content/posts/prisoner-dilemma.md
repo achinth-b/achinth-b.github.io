@@ -1,6 +1,6 @@
 ---
 date: "2025-09-06"
-draft: false
+draft: true
 tags:
 - prisoner's dilemma
 - statistical analysis

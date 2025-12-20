@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/canada/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/political-pragmatism/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/canada/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/democratic-socialism/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/political-pragmatism/</loc>
-    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/politics/</loc>
-    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/zohran-mamdani/</loc>
@@ -25,24 +31,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/zohran-cantillion/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/prisoners-dilemma/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/prisoner-dilemma/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/circuit-discovery-1/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/circuit-discovery/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mechanistic-interpretability/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-1/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
