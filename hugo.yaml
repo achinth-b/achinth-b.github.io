@@ -6,7 +6,7 @@ enableRobotsTXT: true
 
 params:
   author: Achinth 
-  description: AI engineer interested in mechanistic interpretability, algorithmic bias, and red teaming generative models.
+  description: "curating thoughts on politics, technology, and the world for posterity to judge."
 
 menu:
   main:

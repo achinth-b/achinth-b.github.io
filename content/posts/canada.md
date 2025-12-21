@@ -308,8 +308,6 @@ The pattern is there. The mechanism works. The question now falls to us.
 
 **Will we extend it further, or let it contract?**
 
----
-
 ## References
 
 [^1]: Ramaswamy, Vivek. "What Is an American?". *The New York Times*, December 2025.

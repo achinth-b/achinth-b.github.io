@@ -99,25 +99,65 @@ li {
   margin-bottom: 0.25rem;
 }
 
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 2rem 0;
+}
+
+/* Remove top margin from headings after hr for equal spacing */
+hr+h1,
+hr+h2,
+hr+h3,
+hr+h4,
+hr+h5,
+hr+h6 {
+  margin-top: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #555;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  font-style: italic;
+  color: #ccc;
+}
+
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
 /* Code */
 code {
-  background-color: #333;
+  background-color: #1a1a1a;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+  color: #e6e6e6;
 }
 
 pre {
-  background-color: #333;
+  background-color: #1a1a1a;
   padding: 1rem;
   border-radius: 5px;
   overflow-x: auto;
   margin-bottom: 1rem;
+  border: 1px solid #333;
 }
 
 pre code {
   background-color: transparent;
   padding: 0;
+  font-size: 0.85em;
+  line-height: 1.5;
 }
 
 /* Images */
@@ -125,6 +165,193 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  margin: 1rem 0;
+}
+
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #444;
+}
+
+th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #fff;
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Nested lists */
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+}
+
+/* Task lists (checkboxes) */
+ul.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.task-list li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  accent-color: #888;
+}
+
+/* Definition lists */
+dl {
+  margin: 1.5rem 0;
+}
+
+dt {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #fff;
+}
+
+dd {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+/* Strikethrough */
+del,
+s {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Inserted/added text */
+ins {
+  text-decoration: underline;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+/* Keyboard shortcuts */
+kbd {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.85em;
+  box-shadow: 0 1px 0 #555;
+}
+
+/* Abbreviations */
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+/* Mark/highlight */
+mark {
+  background-color: rgba(255, 255, 0, 0.3);
+  color: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 2px;
+}
+
+/* Subscript and superscript */
+sub,
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Strong and emphasis enhancements */
+strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Nested blockquotes */
+blockquote blockquote {
+  margin-left: 1rem;
+  border-left-color: #444;
+}
+
+/* Details/summary (collapsible sections) */
+details {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
+
+/* Address */
+address {
+  font-style: normal;
+  margin: 1rem 0;
+  color: #ccc;
+}
+
+/* Small text */
+small {
+  font-size: 0.85em;
+  color: #888;
 }
 
 /* Posts */
