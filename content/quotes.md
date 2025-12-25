@@ -3,6 +3,11 @@ title: quotes
 layout: quotes
 quotes:
 
+  - text: "when specializing, you assume the risk of future redundancy."
+    author: philip su
+    date: 2025-12-10
+
+
   - text: "survivorship bias makes cruelty look like wisdom."
     author: unknown
     date: 2025-12-10
