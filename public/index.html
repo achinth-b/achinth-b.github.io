@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.149.0">
+    
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>achinth</title>
-    <meta name="description" content="AI engineer interested in mechanistic interpretability, algorithmic bias, and red teaming generative models.">
+    <meta name="description"
+        content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
+    <script src="/js/theme-toggle.js" defer></script>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -32,6 +46,9 @@
                     
                     <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
                     
+                    <li><button id="theme-toggle" aria-label="Toggle theme"
+                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -88,4 +105,5 @@
         </footer>
     </div>
 </body>
+
 </html>

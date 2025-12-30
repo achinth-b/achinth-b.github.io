@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>what does it mean to be Canadian? | achinth</title>
-    <meta name="description" content="AI engineer interested in mechanistic interpretability, algorithmic bias, and red teaming generative models.">
+    <meta name="description"
+        content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
+    <script src="/js/theme-toggle.js" defer></script>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -31,6 +45,9 @@
                     
                     <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
                     
+                    <li><button id="theme-toggle" aria-label="Toggle theme"
+                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -225,7 +242,6 @@
 <p>But every generation before us faced the same question—and every generation chose to extend the covenant rather than contract it. 1867 included only British and French elites; 1947 extended to European immigrants; 1967 opened to non-white immigration; 1982 enshrined equality and recognized Indigenous rights; 2015 committed to reconciliation.</p>
 <p>The pattern is there. The mechanism works. The question now falls to us.</p>
 <p><strong>Will we extend it further, or let it contract?</strong></p>
-<hr>
 <h2 id="references">References</h2>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -375,4 +391,5 @@
         </footer>
     </div>
 </body>
+
 </html>
