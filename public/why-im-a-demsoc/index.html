@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <script>
         (function () {
@@ -18,19 +18,25 @@
     <meta name="description"
         content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/toc-sidebar.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
     <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
+    <script src="/js/toc.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
+            
             <h1 class="site-title">
                 <a href="/">achinth</a>
             </h1>
-            <nav>
+
+            
+            <nav class="desktop-nav">
                 <ul>
                     
                     <li><a href="/">home</a></li>
@@ -43,38 +49,78 @@
                     
                     <li><a href="/love-letters">love letters</a></li>
                     
-                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
                     
-                    <li><button id="theme-toggle" aria-label="Toggle theme"
-                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
-                    </li>
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             
-<article>
-    <header>
-        <h1>why i&#39;m a demsoc</h1>
-        
-        
-    </header>
-    
-    <div class="content">
-        <div id="living-wage-map-root" style="height: 600px; width: 100%;"></div>
+<article class="post ">
+    <div class="post-main">
+        <header class="post-header">
+            <h1>why i&#39;m a demsoc</h1>
+            
+        </header>
+
+        <div class="post-content">
+            <div id="living-wage-map-root" style="height: 600px; width: 100%;"></div>
 <link rel="stylesheet" href="/heatmap/style.css">
 <script type="module" src="/heatmap/main.js"></script>
 <p>The cost of living in Canada has outpaced wage growth for decades. This map visualizes the hourly wage required to meet basic needs in every census division across the country.</p>
 <p><em>Data sources: Statistics Canada, CMHC, and provincial living wage calculations.</em></p>
 
+        </div>
+
+        
+        <nav class="post-nav">
+            
+            
+            <a href="http://localhost:1313/quotes/" class="post-nav-next">
+                quotes →
+            </a>
+            
+        </nav>
+        
     </div>
+
+    
 </article>
 
         </main>
 
         <footer>
-            <p>&copy; 2025 Achinth</p>
+            <p>&copy; 2026 Achinth</p>
         </footer>
     </div>
 </body>

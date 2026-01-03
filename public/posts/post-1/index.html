@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <script>
         (function () {
@@ -18,19 +18,25 @@
     <meta name="description"
         content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/toc-sidebar.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
     <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
+    <script src="/js/toc.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
+            
             <h1 class="site-title">
                 <a href="/">achinth</a>
             </h1>
-            <nav>
+
+            
+            <nav class="desktop-nav">
                 <ul>
                     
                     <li><a href="/">home</a></li>
@@ -43,36 +49,64 @@
                     
                     <li><a href="/love-letters">love letters</a></li>
                     
-                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
                     
-                    <li><button id="theme-toggle" aria-label="Toggle theme"
-                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
-                    </li>
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             
-<article>
-    <header>
-        <h1>Hi!</h1>
-        
-        <div class="post-meta">
-            December 6, 2024
-        </div>
-        
-        
-        <div class="tags">
+<article class="post has-toc">
+    <div class="post-main">
+        <header class="post-header">
+            <h1>Hi!</h1>
             
-            <a href="/tags/self" class="tag">self</a>
+            <div class="post-meta">
+                <time datetime=" 2024-12-06">December 6, 2024</time>
+                <span class="reading-time">• 3 min read</span>
+                
+                <div class="tags">
+                    
+                    <a href="/%20/tags/self" class="tag">self</a>
+                    
+                </div>
+                
+            </div>
             
-        </div>
-        
-    </header>
-    
-    <div class="content">
-        <p>This year, has been the darkest of my life so far. I lost my job. I lost some dear friends. I lost hope. I herniated my back. I moved back home. In the pursuit of the things I accomplished, <em>I forgot who I was supposed to be</em>.</p>
+        </header>
+
+        <div class="post-content">
+            <p>This year, has been the darkest of my life so far. I lost my job. I lost some dear friends. I lost hope. I herniated my back. I moved back home. In the pursuit of the things I accomplished, <em>I forgot who I was supposed to be</em>.</p>
 <p>So I forced myself to think more about what I&rsquo;m doing here. I started writing my thoughts which felt disgustingly difficult at first. My self-confidence has never been lower, and if I don&rsquo;t get comfortable with myself again, I will end up falling deeper into the hole I&rsquo;ve been living in for the past six months.</p>
 <p>If I don&rsquo;t force myself to start a blog, then I never will. Even though I have an &lsquo;about&rsquo; page, this is a much more in-depth breakdown of the following.</p>
 <ul>
@@ -106,13 +140,43 @@
 <li>I hate the McMansions that a stereotypical settled-down dream is associated with. I am a <a href="https://www.housingisahumanright.org/what-is-a-yimby-hint-its-not-good/">YIMBY</a>.</li>
 </ul>
 
+        </div>
+
+        
+        <nav class="post-nav">
+            
+            
+            <a href="http://localhost:1313/posts/zohran-cantillion/" class="post-nav-next">
+                zohran mamdani, and being priced out of your own economy →
+            </a>
+            
+        </nav>
+        
     </div>
+
+    
+    <aside class="toc" id="toc">
+        <button class="toc-header" id="toc-toggle" aria-expanded="true">
+            <svg class="toc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zM9 21h6v-1H9v1z" />
+            </svg>
+            <h2>Contents</h2>
+            <svg class="toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+        <nav class="toc-content" id="toc-content">
+            <nav id="TableOfContents"></nav>
+        </nav>
+    </aside>
+    
 </article>
 
         </main>
 
         <footer>
-            <p>&copy; 2025 Achinth</p>
+            <p>&copy; 2026 Achinth</p>
         </footer>
     </div>
 </body>

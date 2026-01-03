@@ -5,6 +5,7 @@ menu:
   main:
     name: why i'm a demsoc
     weight: 60
+hide_meta: true
 ---
 
 <div id="living-wage-map-root" style="height: 600px; width: 100%;"></div>

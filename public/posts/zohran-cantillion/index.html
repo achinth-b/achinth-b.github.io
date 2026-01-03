@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <script>
         (function () {
@@ -18,19 +18,25 @@
     <meta name="description"
         content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/toc-sidebar.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
     <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
+    <script src="/js/toc.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
+            
             <h1 class="site-title">
                 <a href="/">achinth</a>
             </h1>
-            <nav>
+
+            
+            <nav class="desktop-nav">
                 <ul>
                     
                     <li><a href="/">home</a></li>
@@ -43,42 +49,70 @@
                     
                     <li><a href="/love-letters">love letters</a></li>
                     
-                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
                     
-                    <li><button id="theme-toggle" aria-label="Toggle theme"
-                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
-                    </li>
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             
-<article>
-    <header>
-        <h1>zohran mamdani, and being priced out of your own economy</h1>
-        
-        <div class="post-meta">
-            November 5, 2025
-        </div>
-        
-        
-        <div class="tags">
+<article class="post has-toc">
+    <div class="post-main">
+        <header class="post-header">
+            <h1>zohran mamdani, and being priced out of your own economy</h1>
             
-            <a href="/tags/politics" class="tag">politics</a>
+            <div class="post-meta">
+                <time datetime=" 2025-11-05">November 5, 2025</time>
+                <span class="reading-time">• 7 min read</span>
+                
+                <div class="tags">
+                    
+                    <a href="/%20/tags/politics" class="tag">politics</a>
+                    
+                    <a href="/%20/tags/democratic-socialism" class="tag">democratic socialism</a>
+                    
+                    <a href="/%20/tags/political-pragmatism" class="tag">political pragmatism</a>
+                    
+                    <a href="/%20/tags/zohran-mamdani" class="tag">zohran mamdani</a>
+                    
+                </div>
+                
+            </div>
             
-            <a href="/tags/democratic-socialism" class="tag">democratic socialism</a>
-            
-            <a href="/tags/political-pragmatism" class="tag">political pragmatism</a>
-            
-            <a href="/tags/zohran-mamdani" class="tag">zohran mamdani</a>
-            
-        </div>
-        
-    </header>
-    
-    <div class="content">
-        <p>Zohran Mamdani is the mayor-elect for New York City.</p>
+        </header>
+
+        <div class="post-content">
+            <p>Zohran Mamdani is the mayor-elect for New York City.</p>
 <p>I had my doubts that he was going to win. It was unfathomable to me that a financial centre so focused on the idea of <em>winning</em> (in the capitalist sense) was capable of entertaining a democratic socialist. I stand happily corrected, and extremely proud that he has won the election. His win and agenda <strong>in New York City</strong> are a paradigm shift of the priorities of the electorate. So, I think the first question to ask is: What changed?</p>
 <p>The answer lies in who benefits from economic growth. When asset prices rise faster than wages - when homeownership becomes a lottery ticket rather than a milestone, when stock portfolios outpace paycheques - voters notice. They feel it in their rent, their grocery bills, their inability to save. Mamdani&rsquo;s victory signals that electorates are rejecting an economy that rewards proximity to capital over contribution to productivity.</p>
 <p>At least, in the advanced, industrialized nations, it&rsquo;s a start to moving away from asset-price boosterism, and towards broadened economic security. Across advanced democracies, elections have swung on cost-of-living and economic security, not just culture-war abstractions. In 2024-25 alone, the cost-of-living crisis dominated voter concern in Canada, UK, Netherlands, etc.  <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> America (and by extension, New York City) are no different; when people feel priced out of basic stability and ownership, they will <em>always</em> choose candidates who will promise to reroute these gains. This is why populists win! But,  I digress.</p>
@@ -125,7 +159,6 @@
 </ul>
 <p>Zohran&rsquo;s platform sits squarely in this lane: rent relief / socialized housing blunt the asset channel, stronger labour standards ensure gains arrive as income and not just asset marks.</p>
 <p>Ultimately, Mamdani’s victory isn&rsquo;t just a mood shift; it’s a structural demand. By electing a candidate who explicitly targets these transmission mechanisms—rent, utilities, and labour leverage—voters are signaling that they are done waiting for a &rsquo;trickle down&rsquo; that evaporates before it hits their pockets. If the Cantillon Effect describes how proximity to the money printer builds wealth, then this new political wave is simply the rest of the city demanding to move closer to the source.</p>
-<h2 id="sources">Sources</h2>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -168,13 +201,54 @@
 </ol>
 </div>
 
+        </div>
+
+        
+        <nav class="post-nav">
+            
+            <a href="http://localhost:1313/posts/post-1/" class="post-nav-prev">
+                ← Hi!
+            </a>
+            
+            
+            <a href="http://localhost:1313/posts/canada/" class="post-nav-next">
+                what does it mean to be Canadian? →
+            </a>
+            
+        </nav>
+        
     </div>
+
+    
+    <aside class="toc" id="toc">
+        <button class="toc-header" id="toc-toggle" aria-expanded="true">
+            <svg class="toc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zM9 21h6v-1H9v1z" />
+            </svg>
+            <h2>Contents</h2>
+            <svg class="toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+        <nav class="toc-content" id="toc-content">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-cantillon-effect">The Cantillon Effect</a></li>
+    <li><a href="#where-the-money-does-and-doesnt-go-assets-outrun-incomes">Where the money does (and doesn&rsquo;t) go: assets outrun incomes</a></li>
+    <li><a href="#why-does-this-make-people-sour-on-capitalism">Why does this make people sour on &ldquo;capitalism&rdquo;?</a></li>
+    <li><a href="#so-how-do-we-flip-this-first-recipient-democratic-socialism">So, how do we flip this first-recipient? Democratic socialism.</a></li>
+  </ul>
+</nav>
+        </nav>
+    </aside>
+    
 </article>
 
         </main>
 
         <footer>
-            <p>&copy; 2025 Achinth</p>
+            <p>&copy; 2026 Achinth</p>
         </footer>
     </div>
 </body>

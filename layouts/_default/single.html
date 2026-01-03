@@ -1,23 +1,59 @@
 {{ define "main" }}
-<article>
-    <header>
-        <h1>{{ .Title }}</h1>
-        {{ if not .Date.IsZero }}
-        <div class="post-meta">
-            {{ .Date.Format "January 2, 2006" }}
-        </div>
-        {{ end }}
-        {{ if .Params.tags }}
-        <div class="tags">
-            {{ range .Params.tags }}
-            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+<article class="post {{ if and (eq .Section "posts") .TableOfContents }}has-toc{{ end }}">
+    <div class="post-main">
+        <header class="post-header">
+            <h1>{{ .Title }}</h1>
+            {{ if not .Params.hide_meta }}
+            <div class="post-meta">
+                <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                <span class="reading-time">• {{ .ReadingTime }} min read</span>
+                {{ if .Params.tags }}
+                <div class="tags">
+                    {{ range .Params.tags }}
+                    <a href="{{ " /tags" | relURL }}/{{ . | urlize }}" class="tag">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
             {{ end }}
+        </header>
+
+        <div class="post-content">
+            {{ .Content }}
         </div>
+
+        {{ if or .NextInSection .PrevInSection }}
+        <nav class="post-nav">
+            {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.Permalink }}" class="post-nav-prev">
+                ← {{ .PrevInSection.Title }}
+            </a>
+            {{ end }}
+            {{ if .NextInSection }}
+            <a href="{{ .NextInSection.Permalink }}" class="post-nav-next">
+                {{ .NextInSection.Title }} →
+            </a>
+            {{ end }}
+        </nav>
         {{ end }}
-    </header>
-    
-    <div class="content">
-        {{ .Content }}
     </div>
+
+    {{ if and (eq .Section "posts") .TableOfContents }}
+    <aside class="toc" id="toc">
+        <button class="toc-header" id="toc-toggle" aria-expanded="true">
+            <svg class="toc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zM9 21h6v-1H9v1z" />
+            </svg>
+            <h2>Contents</h2>
+            <svg class="toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+        <nav class="toc-content" id="toc-content">
+            {{ .TableOfContents }}
+        </nav>
+    </aside>
+    {{ end }}
 </article>
 {{ end }}

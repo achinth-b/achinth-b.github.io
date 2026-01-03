@@ -1,0 +1,238 @@
+/* Table of Contents - Sidebar Layout */
+
+/* Desktop: Right sidebar */
+/* Desktop: Right sidebar */
+@media (min-width: 1100px) {
+
+    /* Only apply grid if TOC is present */
+    .post.has-toc {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        /* Fluid 1fr */
+        /* Flexible content, fixed sidebar */
+        gap: 5rem;
+        /* Wider gap for cleaner look */
+        /* More breathing room */
+        max-width: 1400px !important;
+        /* Force override */
+        width: 100%;
+    }
+
+    .post-main {
+        min-width: 0;
+    }
+
+    .toc {
+        position: sticky;
+        top: 2rem;
+        align-self: start;
+        max-height: calc(100vh - 4rem);
+        margin: 0;
+    }
+}
+
+/* TOC Base Styles */
+.toc {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    /* Slightly sharper corners */
+    padding: 0;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.toc-header {
+    background: #52525b;
+    /* Darker slate gray (zinc-600) to match reference */
+    color: white;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.toc-header:hover {
+    background: #3f3f46;
+    /* darker on hover */
+}
+
+.toc-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.toc-header h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    flex: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.toc-chevron {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+}
+
+.toc.collapsed .toc-chevron {
+    transform: rotate(-90deg);
+}
+
+.toc-content {
+    padding: 1rem;
+    max-height: 70vh;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+    background: var(--bg-primary);
+    /* Ensure contrast with header if using themes */
+}
+
+.toc-content nav#TableOfContents {
+    all: unset;
+    display: block;
+}
+
+.toc-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.toc-content>nav>ul {
+    padding-left: 0;
+}
+
+.toc-content ul ul {
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+    border-left: 1px solid var(--border);
+    margin-left: 0.25rem;
+}
+
+.toc-content li {
+    margin: 0.4rem 0;
+}
+
+.toc-content a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem 0;
+    transition: color 0.15s;
+    line-height: 1.4;
+    font-size: 0.85rem;
+}
+
+.toc-content a:hover {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+/* Scrollbar styling for TOC */
+.toc-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.toc-content::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 3px;
+}
+
+/* Mobile/Tablet: Top of page and collapsed */
+@media (max-width: 1099px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toc {
+        width: 100%;
+        margin-bottom: 2rem;
+        order: -1;
+        /* Move to top */
+    }
+}
+
+/* Post Styles */
+.reading-time {
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+}
+
+/* Default post behavior (wide) */
+.post {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Constrain ONLY posts without TOC */
+.post:not(.has-toc) {
+    max-width: 800px;
+}
+
+.post-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.post-header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.post-content {
+    margin-top: 2rem;
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    gap: 1rem;
+}
+
+.post-nav-prev,
+.post-nav-next {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    transition: all 0.2s;
+    max-width: 45%;
+}
+
+.post-nav-prev:hover,
+.post-nav-next:hover {
+    background: var(--bg-secondary);
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+}
+
+.post-nav-next {
+    margin-left: auto;
+    text-align: right;
+}

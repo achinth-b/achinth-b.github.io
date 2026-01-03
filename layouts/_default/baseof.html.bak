@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <!-- Anti-flash script: runs immediately before any rendering -->
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description"
+        content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="stylesheet" href="{{ " /css/style.css" | relURL }}">
+    <script src="{{ " /js/torus-three.js" | relURL }}" defer></script>
+    <script src="{{ " /js/carousel.js" | relURL }}" defer></script>
+    <script src="{{ " /js/footnotes.js" | relURL }}" defer></script>
+    <script src="{{ " /js/theme-toggle.js" | relURL }}" defer></script>
+    <script src="{{ " /js/hamburger.js" | relURL }}" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Site Title -->
+            <h1 class="site-title">
+                <a href="{{ " /" | relURL }}">{{ .Site.Title }}</a>
+            </h1>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Mobile Navigation Overlay -->
+            <nav id="mobile-nav" class="mobile-nav">
+                <button id="mobile-close" class="mobile-close" aria-label="Close">×</button>
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <footer>
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>love letters | achinth</title>
+    <meta name="description"
+        content="curating thoughts on politics, technology, and the world for posterity to judge.">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/torus-three.js" defer></script>
+    <script src="/js/carousel.js" defer></script>
+    <script src="/js/footnotes.js" defer></script>
+    <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            
+            <h1 class="site-title">
+                <a href="/">achinth</a>
+            </h1>
+
+            
+            <nav class="desktop-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+<h1>love letters</h1>
+
+
+
+
+<div class="love-letters-container">
+    
+    <details class="love-letter-entry">
+        <summary class="love-letter-name">my mother and father</summary>
+        <div class="love-letter-content">
+            thank you for bringing me to the greatest country in the world.
+        </div>
+    </details>
+    
+</div>
+
+<script>
+
+document.querySelectorAll('.love-letter-entry').forEach(details => {
+    details.addEventListener('toggle', () => {
+        if (details.open) {
+            document.querySelectorAll('.love-letter-entry').forEach(other => {
+                if (other !== details && other.open) {
+                    other.open = false;
+                }
+            });
+        }
+    });
+});
+</script>
+
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Achinth</p>
+        </footer>
+    </div>
+</body>
+
+</html>

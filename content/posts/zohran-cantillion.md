@@ -60,8 +60,6 @@ Zohran's platform sits squarely in this lane: rent relief / socialized housing b
 Ultimately, Mamdani’s victory isn't just a mood shift; it’s a structural demand. By electing a candidate who explicitly targets these transmission mechanisms—rent, utilities, and labour leverage—voters are signaling that they are done waiting for a 'trickle down' that evaporates before it hits their pockets. If the Cantillon Effect describes how proximity to the money printer builds wealth, then this new political wave is simply the rest of the city demanding to move closer to the source. 
 
 
-## Sources
-
 [^1]: ECB Economic Bulletin 2/2021; Bank of England KnowledgeBank on QE. [What is quantitative easing?](https://www.bankofengland.co.uk/knowledgebank/what-is-quantitative-easing)
 
 [^2]: IMF Working Paper: "Monetary Policy and Inequality" (2016); ECB Economic Bulletin 2/2021.

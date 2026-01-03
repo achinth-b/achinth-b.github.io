@@ -18,19 +18,25 @@
     <meta name="description"
         content="curating thoughts on politics, technology, and the world for posterity to judge.">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/toc-sidebar.css">
     <script src="/js/torus-three.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <script src="/js/footnotes.js" defer></script>
     <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
+    <script src="/js/toc.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
+            
             <h1 class="site-title">
                 <a href="/">achinth</a>
             </h1>
-            <nav>
+
+            
+            <nav class="desktop-nav">
                 <ul>
                     
                     <li><a href="/">home</a></li>
@@ -43,38 +49,66 @@
                     
                     <li><a href="/love-letters">love letters</a></li>
                     
-                    <li><a href="/why-im-a-demsoc">why i&#39;m a demsoc</a></li>
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
                     
-                    <li><button id="theme-toggle" aria-label="Toggle theme"
-                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
-                    </li>
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    
+                    <li><a href="/">home</a></li>
+                    
+                    <li><a href="/experience">experience</a></li>
+                    
+                    <li><a href="/posts">posts</a></li>
+                    
+                    <li><a href="/quotes">quotes</a></li>
+                    
+                    <li><a href="/love-letters">love letters</a></li>
+                    
+                    <li><a href="/why-im-a-demsoc/">why i&#39;m a demsoc</a></li>
+                    
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             
-<article>
-    <header>
-        <h1>what does it mean to be Canadian?</h1>
-        
-        <div class="post-meta">
-            December 20, 2025
-        </div>
-        
-        
-        <div class="tags">
+<article class="post has-toc">
+    <div class="post-main">
+        <header class="post-header">
+            <h1>what does it mean to be Canadian?</h1>
             
-            <a href="/tags/canada" class="tag">canada</a>
+            <div class="post-meta">
+                <time datetime=" 2025-12-20">December 20, 2025</time>
+                <span class="reading-time">• 24 min read</span>
+                
+                <div class="tags">
+                    
+                    <a href="/%20/tags/canada" class="tag">canada</a>
+                    
+                    <a href="/%20/tags/political-pragmatism" class="tag">political pragmatism</a>
+                    
+                </div>
+                
+            </div>
             
-            <a href="/tags/political-pragmatism" class="tag">political pragmatism</a>
-            
-        </div>
-        
-    </header>
-    
-    <div class="content">
-        <p>It&rsquo;s been a tough year for us Canadians. Between</p>
+        </header>
+
+        <div class="post-content">
+            <p>It&rsquo;s been a tough year for us Canadians. Between</p>
 <ul>
 <li>a stalling economy and rampant inflation,</li>
 <li>internal political polarization, and</li>
@@ -242,7 +276,6 @@
 <p>But every generation before us faced the same question—and every generation chose to extend the covenant rather than contract it. 1867 included only British and French elites; 1947 extended to European immigrants; 1967 opened to non-white immigration; 1982 enshrined equality and recognized Indigenous rights; 2015 committed to reconciliation.</p>
 <p>The pattern is there. The mechanism works. The question now falls to us.</p>
 <p><strong>Will we extend it further, or let it contract?</strong></p>
-<h2 id="references">References</h2>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -381,13 +414,92 @@
 </ol>
 </div>
 
+        </div>
+
+        
+        <nav class="post-nav">
+            
+            <a href="http://localhost:1313/posts/zohran-cantillion/" class="post-nav-prev">
+                ← zohran mamdani, and being priced out of your own economy
+            </a>
+            
+            
+        </nav>
+        
     </div>
+
+    
+    <aside class="toc" id="toc">
+        <button class="toc-header" id="toc-toggle" aria-expanded="true">
+            <svg class="toc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zM9 21h6v-1H9v1z" />
+            </svg>
+            <h2>Contents</h2>
+            <svg class="toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+        <nav class="toc-content" id="toc-content">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-canada-to-me">What is Canada to Me?</a>
+      <ul>
+        <li><a href="#the-racial-exclusivity-of-the-founding">The Racial Exclusivity of the Founding</a></li>
+        <li><a href="#how-anglo-franco-rivalry-created-the-infrastructure-for-pluralism">How Anglo-Franco Rivalry Created the Infrastructure for Pluralism</a></li>
+        <li><a href="#proto-civic-nationalism-for-those-who-looked-the-part">Proto-Civic Nationalism for Those Who Looked the Part</a></li>
+        <li><a href="#the-paradox-of-mackenzie-king">The paradox of Mackenzie King</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-reckoning-pragmatism-without-principle">The Reckoning: Pragmatism Without Principle</a></li>
+    <li><a href="#the-forge-of-social-democracy">The Forge of Social Democracy</a>
+      <ul>
+        <li><a href="#pierre-trudeau-the-architect-of-constitutional-syncretism">Pierre Trudeau: The Architect of Constitutional Syncretism</a></li>
+        <li><a href="#the-complication-quebecs-absence">The Complication: Quebec&rsquo;s Absence</a></li>
+        <li><a href="#the-constitutional-bridge-to-reconciliation">The Constitutional Bridge to Reconciliation</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-failure-of-the-oath-the-indigenous-test">The Failure of the Oath: The Indigenous Test</a>
+      <ul>
+        <li><a href="#the-honest-acknowledgement">The Honest Acknowledgement</a></li>
+        <li><a href="#the-case-for-continuation">The Case for Continuation</a></li>
+        <li><a href="#the-test-of-sincerity">The Test of Sincerity</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-institutional-foundations-of-achievement">The Institutional Foundations of Achievement</a></li>
+    <li><a href="#the-north-american-eidgenossenschaft">The North American Eidgenossenschaft</a>
+      <ul>
+        <li><a href="#what-switzerland-exemplifies-for-us">What Switzerland Exemplifies for Us</a></li>
+        <li><a href="#canada-as-the-neo-eidgenossenschaft">Canada as the Neo-Eidgenossenschaft</a></li>
+        <li><a href="#from-trudeaus-synthesis-to-canadian-eidgenossenschaft">From Trudeau&rsquo;s Synthesis to Canadian Eidgenossenschaft</a></li>
+        <li><a href="#the-problem-of-race-in-the-eidgenossenschaft">The Problem of Race in the Eidgenossenschaft</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-vulnerabilities-and-the-cure">The Vulnerabilities and the Cure</a>
+      <ul>
+        <li><a href="#the-burden-of-performance">The Burden of Performance</a></li>
+        <li><a href="#where-we-stand">Where We Stand</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-clarifying-moment">The Clarifying Moment</a>
+      <ul>
+        <li><a href="#strategic-independence">Strategic Independence</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-is-canada">What is Canada?</a></li>
+    <li><a href="#what-does-it-mean-to-be-canadian">What Does It Mean to Be Canadian?</a></li>
+    <li><a href="#why-i-reject-the-post-nationalist-framework">Why I Reject the Post-Nationalist Framework</a></li>
+  </ul>
+</nav>
+        </nav>
+    </aside>
+    
 </article>
 
         </main>
 
         <footer>
-            <p>&copy; 2025 Achinth</p>
+            <p>&copy; 2026 Achinth</p>
         </footer>
     </div>
 </body>

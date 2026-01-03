@@ -18,26 +18,48 @@
     <meta name="description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/toc-sidebar.css" | relURL }}">
     <script src="{{ "/js/torus-three.js" | relURL }}" defer></script>
     <script src="{{ "/js/carousel.js" | relURL }}" defer></script>
     <script src="{{ "/js/footnotes.js" | relURL }}" defer></script>
     <script src="{{ "/js/theme-toggle.js" | relURL }}" defer></script>
+    <script src="{{ "/js/hamburger.js" | relURL }}" defer></script>
+    <script src="{{ "/js/toc.js" | relURL }}" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
+            <!-- Site Title -->
             <h1 class="site-title">
                 <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
             </h1>
-            <nav>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
                 <ul>
                     {{ range .Site.Menus.main }}
                     <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
                     {{ end }}
-                    <li><button id="theme-toggle" aria-label="Toggle theme"
-                            style="background: none; border: none; cursor: pointer; font-size: 1.5rem; padding: 0; margin: 0;">🌅</button>
-                    </li>
+                    <li><button id="theme-toggle" aria-label="Toggle theme">🌅</button></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Mobile Navigation Overlay -->
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    <li><button id="theme-toggle-mobile" class="theme-toggle-mobile"
+                            aria-label="Toggle theme">🌅</button></li>
                 </ul>
             </nav>
         </header>

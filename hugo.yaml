@@ -25,11 +25,12 @@ menu:
     - name: love letters
       url: /love-letters
       weight: 50
-    - name: why i'm a demsoc
-      url: /why-im-a-demsoc
-      weight: 60
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
