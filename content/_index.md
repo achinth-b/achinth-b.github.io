@@ -44,5 +44,4 @@ Among other things, I'm trying to understand if vision models learn racist featu
 
 I love to chat about these new things (or to say hello)! Reach me here:
 
-* 🐣 [@bigdaddy2chinz](https://x.com/@bigdaddy2chinz)
 * 📫 [achinth.bharadwaj[at]gmail[dot]com](mailto:achinth.bharadwaj@gmail.com)
