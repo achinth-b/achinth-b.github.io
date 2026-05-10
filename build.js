@@ -54,18 +54,17 @@ function fmtDate(str) {
 }
 
 /** Shared sidebar + theme toggle used on every page. */
-function sidebar() {
-  return `
+const sidebar = (active = '') => `
     <aside class="site-sidebar">
       <span class="site-name"><a href="/">achinth</a></span>
       <ul class="site-nav">
-        <li><a href="/posts">posts</a></li>
-        <li><a href="/quotes">quotes</a></li>
-        <li><a href="/love-letters">love letters</a></li>
+        <li><a href="/posts" ${active === 'posts' ? 'class="active"' : ''}>posts</a></li>
+        <li><a href="/quotes" ${active === 'quotes' ? 'class="active"' : ''}>quotes</a></li>
+        <li><a href="/love-letters" ${active === 'love-letters' ? 'class="active"' : ''}>love letters</a></li>
+        <li><a href="/bookshelf" ${active === 'bookshelf' ? 'class="active"' : ''}>bookshelf</a></li>
       </ul>
       <button id="theme-toggle" aria-label="Toggle theme">light</button>
     </aside>`.trim();
-}
 
 /** Inline theme toggle script (shared by every page). */
 function themeScript() {
@@ -121,7 +120,7 @@ ${bodyHTML}
         </nav>
       </article>
     </main>
-    ${sidebar()}
+    ${sidebar('posts')}
     <footer class="site-footer"><p>&copy; ${new Date().getFullYear()} Achinth</p></footer>
   </div>
   ${themeScript()}
@@ -172,7 +171,7 @@ ${rows}
       <p style="color:var(--muted);font-size:0.88rem;margin-bottom:2rem;">my thoughts on AI, interpretability, and other things that catch my attention.</p>
 ${groups || '      <p style="color:var(--muted);font-size:0.88rem;">nothing published yet. check back soon.</p>'}
     </main>
-    ${sidebar()}
+    ${sidebar('posts')}
     <footer class="site-footer"><p>&copy; ${new Date().getFullYear()} Achinth</p></footer>
   </div>
   ${themeScript()}

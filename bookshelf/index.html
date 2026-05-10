@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bookshelf | achinth</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <main>
+      <h1>bookshelf</h1>
+      <p class="label">things worth reading.</p>
+      
+      <h2>politics / economics</h2>
+      <ul class="books-list">
+        <li class="book-item">
+          <a href="https://www.amazon.com/From-Third-World-First-Singapore/dp/0060197765" class="book-title" target="_blank" rel="noopener">From Third World to First</a>: The Singapore Story (1965 - 1990)
+          <span class="book-author">by Lee Kuan Yew</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Things-They-Dont-Tell-Capitalism/dp/1608193381" class="book-title" target="_blank" rel="noopener">23 Things They Don't Tell You About Capitalism</a>
+          <span class="book-author">by Ha-Joon Chang</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227" class="book-title" target="_blank" rel="noopener">Why Nations Fail</a>
+          <span class="book-author">by Daron Acemoglu and James A. Robinson</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Values-Building-Better-World-All/dp/1541701358" class="book-title" target="_blank" rel="noopener">Values</a>: Building a Better World for All
+          <span class="book-author">by Mark Carney</span>
+        </li>
+      </ul>
+
+      <h2>computing</h2>
+      <ul class="books-list">
+        <li class="book-item">
+          <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321" class="book-title" target="_blank" rel="noopener">Designing Data Intensive Applications</a>
+          <span class="book-author">by Martin Kleppmann</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/0262046305" class="book-title" target="_blank" rel="noopener">Introduction to Algorithms</a>
+          <span class="book-author">by Cormen, Leiserson, Rivest, and Stein</span>
+        </li>
+      </ul>
+
+      <h2>fiction</h2>
+      <ul class="books-list">
+        <li class="book-item">
+          <a href="https://www.amazon.com/Handmaids-Tale-Margaret-Atwood/dp/038549081X" class="book-title" target="_blank" rel="noopener">The Handmaid's Tale</a>
+          <span class="book-author">by Margaret Atwood</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Testaments-Novel-Margaret-Atwood/dp/0385543786" class="book-title" target="_blank" rel="noopener">The Testaments</a>
+          <span class="book-author">by Margaret Atwood</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Parva-Retelling-Mahabharata-S-L-Bhyrappa/dp/8172234057" class="book-title" target="_blank" rel="noopener">Parva</a>
+          <span class="book-author">by S.L. Bhyrappa</span>
+        </li>
+      </ul>
+
+      <h2>philosophy</h2>
+      <ul class="books-list">
+        <li class="book-item">
+          <a href="https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220" class="book-title" target="_blank" rel="noopener">Kitchen Confidential</a>
+          <span class="book-author">by Anthony Bourdain</span>
+        </li>
+        <li class="book-item">
+          <a href="https://www.amazon.com/Holy-Geeta-Swami-Chinmayananda/dp/8175970749" class="book-title" target="_blank" rel="noopener">The Holy Geeta</a>
+          <span class="book-author">by Veda Vyasa, commentary by Swami Chinmayananda</span>
+        </li>
+      </ul>
+    </main>
+
+    <aside class="site-sidebar">
+      <span class="site-name"><a href="/">achinth</a></span>
+      <ul class="site-nav">
+        <li><a href="/posts">posts</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/love-letters">love letters</a></li>
+        <li><a href="/bookshelf" class="active">bookshelf</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">light</button>
+    </aside>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Achinth</p>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+      function sync(){
+        var dark = root.getAttribute('data-theme') !== 'light';
+        btn.textContent = dark ? 'light' : 'dark';
+      }
+      sync();
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      });
+    })();
+  </script>
+</body>
+</html>
