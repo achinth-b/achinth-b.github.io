@@ -62,6 +62,7 @@ const sidebar = (active = '') => `
         <li><a href="/quotes" ${active === 'quotes' ? 'class="active"' : ''}>quotes</a></li>
         <li><a href="/love-letters" ${active === 'love-letters' ? 'class="active"' : ''}>love letters</a></li>
         <li><a href="/bookshelf" ${active === 'bookshelf' ? 'class="active"' : ''}>bookshelf</a></li>
+        <li><a href="/restaurants" ${active === 'restaurants' ? 'class="active"' : ''}>restaurants</a></li>
       </ul>
       <button id="theme-toggle" aria-label="Toggle theme">light</button>
     </aside>`.trim();
