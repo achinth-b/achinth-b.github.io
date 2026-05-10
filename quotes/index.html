@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>quotes | achinth</title>
+  <meta name="description" content="Quotes Achinth Bharadwaj finds worth keeping.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <main>
+      <h1>quotes</h1>
+      <p style="color:var(--muted);font-size:0.88rem;margin-bottom:2rem;">things worth keeping.</p>
+
+      <div class="quote-block">
+        <p class="quote-text">&ldquo;when specializing, you assume the risk of future redundancy.&rdquo;</p>
+        <p class="quote-attr">&mdash; philip su</p>
+      </div>
+
+      <div class="quote-block">
+        <p class="quote-text">&ldquo;survivorship bias makes cruelty look like wisdom.&rdquo;</p>
+        <p class="quote-attr">&mdash; unknown</p>
+      </div>
+
+      <div class="quote-block">
+        <p class="quote-text">&ldquo;our biggest downfall as people is after making it in life, we like to eat with people we never starved with.&rdquo;</p>
+        <p class="quote-attr">&mdash; unknown</p>
+      </div>
+
+      <div class="quote-block">
+        <p class="quote-text">富不过三代</p>
+        <p class="quote-translation">wealth does not pass three generations.</p>
+        <p class="quote-attr">&mdash; ancient chinese proverb</p>
+      </div>
+
+      <div class="quote-block">
+        <p class="quote-text">कर्मण्ये वाधिका रस्ते मा फलेषु कदाचन।<br>मा कर्म फल हेतु र्भूर्मा ते सङ्गोऽस्त्व कर्मणि॥</p>
+        <p class="quote-translation">you have a right to your karma, but not to any of its fruits. you should never be motivated by the results of your actions, nor should there be any attachment in not doing your prescribed karma.</p>
+        <p class="quote-attr">&mdash; krishna</p>
+      </div>
+    </main>
+
+    <aside class="site-sidebar">
+      <span class="site-name"><a href="/">achinth</a></span>
+      <ul class="site-nav">
+        <li><a href="/experience">experience</a></li>
+        <li><a href="/posts">posts</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/love-letters">love letters</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">light</button>
+    </aside>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Achinth</p>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+      function sync(){
+        var dark = root.getAttribute('data-theme') !== 'light';
+        btn.textContent = dark ? 'light' : 'dark';
+      }
+      sync();
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      });
+    })();
+  </script>
+</body>
+</html>

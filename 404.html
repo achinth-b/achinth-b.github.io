@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>not found | achinth</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <span class="site-name"><a href="/">achinth</a></span>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="/experience">experience</a></li>
+          <li><a href="/posts">posts</a></li>
+          <li><a href="/quotes">quotes</a></li>
+          <li><a href="/love-letters">love letters</a></li>
+          <li><button id="theme-toggle" aria-label="Toggle theme">light</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>404</h1>
+      <p>that page doesn't exist. <a href="/">go home</a>.</p>
+    </main>
+  </div>
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+      function sync(){ btn.textContent = root.getAttribute('data-theme') !== 'light' ? 'light' : 'dark'; }
+      sync();
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      });
+    })();
+  </script>
+</body>
+</html>

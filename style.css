@@ -1,0 +1,414 @@
+/* No external font imports — system fonts only */
+
+/* ── Tokens ── */
+:root {
+  --bg:      #111010;
+  --fg:      #e8e4dd;
+  --muted:   #7a7672;
+  --link:    #c9a96e;
+  --link-hv: #e0c08a;
+  --border:  #2a2927;
+  --max:     900px;
+}
+
+[data-theme="light"] {
+  --bg:      #f7f4ef;
+  --fg:      #1a1917;
+  --muted:   #7a7672;
+  --link:    #7a5c2e;
+  --link-hv: #5a3f18;
+  --border:  #dedad4;
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Base ── */
+html { font-size: 15px; }
+
+body {
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  padding: 3rem 1.5rem 5rem;
+  transition: background 0.2s, color 0.2s;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Page grid: content left, nav right ── */
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "main  sidebar"
+    "main  sidebar"
+    "footer sidebar";
+  gap: 0 3rem;
+  align-items: start;
+}
+
+main  { grid-area: main; }
+.site-footer { grid-area: footer; }
+
+/* ── Right sidebar ── */
+.site-sidebar {
+  grid-area: sidebar;
+  padding-top: 3rem;
+  text-align: right;
+  position: sticky;
+  top: 3rem;
+}
+
+.site-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.site-name a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-end;
+}
+
+.site-nav a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: color 0.15s;
+}
+
+.site-nav a:hover { color: var(--link-hv); }
+
+/* ── Theme toggle ── */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-family: inherit;
+  padding: 0;
+  margin-top: 1.25rem;
+  transition: color 0.15s;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+#theme-toggle:hover { color: var(--fg); }
+
+/* ── Photo ── */
+.photo {
+  width: 108px;
+  height: 108px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  display: block;
+  filter: grayscale(10%);
+}
+
+/* ── Typography ── */
+h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.6rem;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.4rem;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p { margin-bottom: 1rem; }
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+a:hover { color: var(--link-hv); }
+
+ul, ol {
+  margin: 0.5rem 0 1rem 1.25rem;
+}
+
+li { margin-bottom: 0.3rem; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* ── Muted label ── */
+.label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  margin-bottom: 0.25rem;
+}
+
+/* ── Posts list ── */
+.year-group { margin-bottom: 2rem; }
+
+.year-heading {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+  font-weight: 400;
+}
+
+.post-row {
+  display: flex;
+  gap: 1.25rem;
+  align-items: baseline;
+  margin-bottom: 0.45rem;
+}
+
+.post-date {
+  font-size: 0.82rem;
+  color: var(--muted);
+  min-width: 52px;
+  flex-shrink: 0;
+}
+
+.post-row a {
+  color: var(--fg);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.post-row a:hover { color: var(--link); text-decoration: underline; }
+
+/* ── Experience ── */
+.exp-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  align-items: baseline;
+}
+
+.exp-title { font-size: 0.95rem; }
+.exp-company a { color: var(--fg); }
+.exp-date {
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+}
+.exp-loc {
+  font-size: 0.82rem;
+  color: var(--muted);
+  grid-column: 1;
+}
+
+/* ── Quotes ── */
+.quote-block {
+  margin-bottom: 2rem;
+}
+
+.quote-text {
+  font-style: italic;
+  margin-bottom: 0.35rem;
+}
+
+.quote-translation {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.quote-attr {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ── Love letters ── */
+.letter {
+  margin-bottom: 2rem;
+}
+
+.letter-to {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+/* ── Single post ── */
+.post-header { margin-bottom: 2rem; }
+
+.post-meta {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+.post-content h2 { margin-top: 2rem; }
+.post-content h3 { margin-top: 1.5rem; }
+.post-content p  { margin-bottom: 1rem; }
+
+.post-content blockquote {
+  border-left: 3px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.post-content code {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.83em;
+  background: var(--border);
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+}
+
+.post-content pre {
+  background: var(--border);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.post-content pre code { background: none; padding: 0; }
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+.post-content th, .post-content td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.post-content th { color: var(--muted); font-weight: 600; }
+
+/* ── Footnotes ── */
+.post-content .footnotes {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.post-content .footnotes ol {
+  margin: 0.5rem 0 0 1.25rem;
+}
+
+.post-content .footnotes li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+.post-content .footnotes a {
+  color: var(--muted);
+}
+
+/* Superscript footnote refs inline */
+.post-content sup a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.75em;
+}
+.post-content sup a:hover { text-decoration: underline; }
+
+/* Comma between consecutive footnote refs: ¹,²,³ */
+.post-content sup + sup::before {
+  content: ",";
+  vertical-align: super;
+  font-size: 0.65em;
+  line-height: 0;
+  color: var(--muted);
+  margin-right: 1px;
+}
+
+/* ── Post nav ── */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+  gap: 1rem;
+}
+
+/* ── Footer ── */
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  body { padding: 2rem 1.25rem 4rem; }
+
+  .wrap {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "sidebar"
+      "main"
+      "footer";
+  }
+
+  .site-sidebar {
+    position: static;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .site-nav {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.15rem 1rem;
+  }
+
+  #theme-toggle {
+    text-align: left;
+    margin-top: 0;
+    width: auto;
+  }
+
+  .exp-row { grid-template-columns: 1fr; }
+  .exp-date { text-align: left; }
+}

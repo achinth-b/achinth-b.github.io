@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>love letters | achinth</title>
+  <meta name="description" content="Love letters from Achinth Bharadwaj.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <main>
+      <h1>love letters</h1>
+
+      <div class="letter">
+        <p class="letter-to">to: my mother and father</p>
+        <p>thank you for bringing me to the greatest country in the world.</p>
+      </div>
+    </main>
+
+    <aside class="site-sidebar">
+      <span class="site-name"><a href="/">achinth</a></span>
+      <ul class="site-nav">
+        <li><a href="/experience">experience</a></li>
+        <li><a href="/posts">posts</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/love-letters">love letters</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">light</button>
+    </aside>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Achinth</p>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+      function sync(){
+        var dark = root.getAttribute('data-theme') !== 'light';
+        btn.textContent = dark ? 'light' : 'dark';
+      }
+      sync();
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      });
+    })();
+  </script>
+</body>
+</html>

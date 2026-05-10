@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>achinth</title>
+  <meta name="description" content="curating thoughts on politics, technology, and the world for posterity to judge.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <main>
+      <img class="photo" src="/static/images/face.png" alt="Achinth Bharadwaj">
+
+      <p>I currently live in New York City and work at <a href="https://tivara.com" target="_blank" rel="noopener">Tivara</a>. I grew up in Vancouver, Canada and previously studied at the <a href="https://ubc.ca" target="_blank" rel="noopener">University of British Columbia</a>.</p>
+
+      <p>I'm distracted by ultimate frisbee and Canadian politics.</p>
+
+      <p>I'm interested in mechanistic interpretability on vision language models, specifically whether they learn and encode biased or racially-inflected representations.</p>
+
+      <hr>
+
+      <h2>contact</h2>
+      <p>I love to chat. Reach me at <a href="mailto:achinth.bharadwaj@gmail.com">achinth.bharadwaj@gmail.com</a>.</p>
+    </main>
+
+    <aside class="site-sidebar">
+      <span class="site-name"><a href="/">achinth</a></span>
+      <ul class="site-nav">
+        <li><a href="/experience">experience</a></li>
+        <li><a href="/posts">posts</a></li>
+        <li><a href="/quotes">quotes</a></li>
+        <li><a href="/love-letters">love letters</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">light</button>
+    </aside>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Achinth</p>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+      function sync(){
+        var dark = root.getAttribute('data-theme') !== 'light';
+        btn.textContent = dark ? 'light' : 'dark';
+      }
+      sync();
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      });
+    })();
+  </script>
+</body>
+</html>
