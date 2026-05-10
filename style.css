@@ -379,8 +379,8 @@ hr {
 }
 
 /* ── Responsive ── */
-@media (max-width: 640px) {
-  body { padding: 2rem 1.25rem 4rem; }
+@media (max-width: 720px) {
+  body { padding: 2rem 1rem 4rem; }
 
   .wrap {
     grid-template-columns: 1fr;
@@ -388,49 +388,59 @@ hr {
       "sidebar"
       "main"
       "footer";
+    gap: 0;
   }
 
   .site-sidebar {
     position: static;
     text-align: left;
     padding-top: 0;
-    padding-bottom: 2rem;
-    display: flex;
-    align-items: baseline;
-    gap: 0 1.25rem;
-    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    display: block;
   }
 
   .site-nav {
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.15rem 1rem;
+    justify-content: flex-start;
+    gap: 0.5rem 1.25rem;
+    margin-top: 0.5rem;
   }
 
   #theme-toggle {
     text-align: left;
-    margin-top: 0;
     width: auto;
+    margin-top: 0.75rem;
   }
 
-  .exp-row { grid-template-columns: 1fr; }
-  .exp-date { text-align: left; }
+  .post-row {
+    flex-direction: column;
+    gap: 0.15rem;
+    margin-bottom: 1rem;
+  }
 }
 
-/* ── Bookshelf ── */
+/* ── Bookshelf & Restaurants ── */
 .books-list {
   list-style: none;
-  margin: 1.5rem 0 0 0;
+  margin: 1.5rem 0 2.5rem 0;
 }
 
 .book-item {
   margin-bottom: 0.8rem;
   font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .book-title {
   font-style: italic;
   margin-right: 0.2rem;
+  text-decoration: none;
+}
+
+.book-title:hover {
+  text-decoration: underline;
 }
 
 .book-author {
